@@ -1,22 +1,25 @@
-Kasra Confectionary 
-## www.Kasrasweets.com
+## Kasra Confectionary 
+
 ================================
-Discription:
+## www.Kasrasweets.com
+### Discription
 This website is for kasra confectionary who produce different kind of pastry and cookies and many other thing which every one love it.
 
-Contributing:
+### Contributing
 * Check our projec's website and report any bugs or ideas in issues
 * Check our project's source with
 ```
 git clone https://github.com/1schools-projects/kasrasweets.git
 
 ```
-Building Technologies:
+### Building Technologies
+
 * [HTML5](http://ali.md/wiki/html5)
 * [CSS3](http://ali.md/css3ref)
-* [1Style](http://ali.md/1styles)
-* [Html5shiv](http://ali.md/html5ashiv)
-* [reset](http://ali.md/wiki/javascript)
+* [html5shiv](http://ali.md/html5shiv)
+* [1Styles](http://ali.md/1styles)
+* [JavaScript](http://ali.md/wiki/javascript)
+
 
 ### The Team:
 * [Ali Mihandoost](http://github.com/alimd) Teacher & Technical Manager
