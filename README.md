@@ -11,7 +11,7 @@ Contributing:
 git clone https://github.com/1schools-projects/kasrasweets.git
 
 ```
-### Building Technologies:
+Building Technologies:
 * [HTML5](http://ali.md/wiki/html5)
 * [CSS3](http://ali.md/css3ref)
 * [1Style](http://ali.md/1styles)
