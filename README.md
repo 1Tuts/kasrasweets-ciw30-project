@@ -9,8 +9,10 @@ This website is for kasra confectionary who produce different kind of pastry and
 * Check our projec's website and report any bugs or ideas in issues
 * Check our project's source with
 ```
-    https://github.com/1schools-projects/kasrasweets
+    https://github.com/1schools-projects/kasrasweets.git
 ```
+
+
 ### Building Technologies 
 * [HTML5](http://ali.md/wiki/html5)
 * [CSS3](http://ali.md/css3ref)
