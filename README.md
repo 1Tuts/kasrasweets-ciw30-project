@@ -23,9 +23,9 @@ This website is for kasra confectionary who produce different kind of pastry and
 
 ### The Team
 * [Ali Mihandoost](http://github.com/alimd) Teacher & Technical Manager
-* [maede kafiyan safari](https://github.com/m-kafiyan) Project Manager / Graphic Designer / Developer
+* [shahrzad parsa](https://github.com/shahrzadparsa) Project Manager / Graphic Designer / Developer
 * [shima pichaghsaz](https://github.com/shpichaghsaz) Designer / Developer
-* [shahrzad parsa](https://github.com/shahrzadparsa) Designer / Developer
+* [maede kafiyan safari](https://github.com/m-kafiyan) Designer / Developer
 * [souror soltani](https://github.com/sorour-hsb) Data Gather
 
 
