@@ -2,10 +2,10 @@
 
 ================================
 ##kasrasweet website: www.Kasrasweets.com
-### Discription
+### Discription:
 This website is for kasra confectionary who produce different kind of pastry and cookies and many other thing which every one love it.
 
-### Contributing
+### Contributing:
 * Check our projec's website and report any bugs or ideas in issues
 * Check our project's source with
 ```
