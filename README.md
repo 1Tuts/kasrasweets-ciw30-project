@@ -13,7 +13,7 @@ This website is for kasra confectionary who produce different kind of pastry and
 ```
 
 
-### Building Technologies 
+### Building Technologies :
 * [HTML5](http://ali.md/wiki/html5)
 * [CSS3](http://ali.md/css3ref)
 * [1Styles](http://ali.md/1styles)
@@ -21,7 +21,7 @@ This website is for kasra confectionary who produce different kind of pastry and
 * [JavaScript](http://ali.md/wiki/javascript)
 
 
-### The Team
+### The Team :
 * [Ali Mihandoost](http://github.com/alimd) Teacher / Technical Manager
 * [Shahrzad Parsa](https://github.com/shahrzadparsa) Project Manager / Graphic Designer / Developer
 * [Shima Pichaghsaz](https://github.com/shpichaghsaz) Designer / Developer
@@ -29,7 +29,7 @@ This website is for kasra confectionary who produce different kind of pastry and
 * [Souror Soltani](https://github.com/sorour-hsb) Data Gather
 
 
-### Our Desire Design Is
+### Our Desire Design Is :
 http://www.keithcakes.com.au/
 
 
