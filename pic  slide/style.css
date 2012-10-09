@@ -1,0 +1,66 @@
+.ornament {
+	background-image: url('images/ornament
+		_1-background.png');
+	background-repeat: repeat-x;
+	min-height: 485px;
+}
+
+.ornament2 {
+	background-image: url('images/ornament_2-background.png');
+	background-repeat: no-repeat;
+	background-position: center -5px;
+	min-height: 485px;
+}
+
+.page {
+	margin: 0 auto;
+	width: 950px;
+	min-height: 400px;
+}
+
+.page section.scroller {
+	background-image: url('images/scroller.png');
+	background-repeat: no-repeat;
+	margin: 5px 0 10px 0;
+	min-height: 180px;
+
+}
+
+.page section.scroller div {
+	width: 45px;
+	min-height: 180px;
+}
+
+section.scroller div a.pre {
+	background-image: url('images/scroller.png');
+	background-repeat: no-repeat;
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+div.item {
+	min-height: 135px;
+}
+
+div.item ul {
+	background-image: url('images/scroller-item.jpg');
+	background-repeat: no-repeat;
+	list-style-type: none;
+	overflow: hidden;
+	min-height: 180px;
+	text-transform: none;
+	text-decoration: none;
+	font-family: 'CoralRegular',sans-serif;
+}
+
+div.item ul li {
+	float: left;
+	overflow: hidden;
+	width: 143px;
+	min-height: 135px;
+}
+
+div.item ul li a {
+
+}
