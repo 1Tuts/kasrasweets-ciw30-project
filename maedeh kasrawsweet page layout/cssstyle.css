@@ -1,0 +1,175 @@
+/* 
+*
+* MKS AAA EFF DIA EYR HAI -N- / kasrasweet css layout
+*
+*
+* Copyright (c) 2012,m-kafiyan(maedeh.kafiyan@gmail.com),under a MIT License (http://opensource.org/licenses/MIT).
+*
+*
+* https://github.com/m-kafiyan
+* http://maedeh-kafiyan.ir
+*/
+
+	body{
+		padding-top			: 1px;
+		background-image	: url("images/kasrasweets.png");
+		background-repeat	: no-repeat;
+		background-position	: center top;
+
+	}
+
+	.container div{
+			padding-top		: 5px;
+			padding-bottom	: 5px;
+			outline			: darkmagenta dashed 1px;
+			min-height		: 50px;
+			
+		}
+	.container div > div{
+			min-height		: 10px;
+			outline			: darkorange dotted 1px;
+		}
+
+		
+/* ><> ><> ><> ><> ><> css header layout codes <>< <>< <>< <>< <><	*/	
+
+
+	header.holdheader{
+		outline				: dashed darkmagenta 1px;
+	}
+	div.baner{
+		margin-left			: 5px;
+		outline				: dashed darkorange 1px;
+	}	
+	menu.mainmenu{
+		outline				: dashed darkorange 1px;
+	}
+
+
+/* ><> ><> ><> ><> ><> css slidshow layout codes <>< <>< <>< <>< <>< */ 
+
+
+	div.slidshow .textpanel{
+		margin-left			: 5px;
+	}
+	article.text{
+		outline				: dotted darkorange 1px;
+		margin-left			: 5px;
+	}
+	article.text h3.topic1{
+		outline				: dotted darkorange 1px;
+		margin-left			: 10px;
+	}
+	article.text p.maintext1{
+		outline				: dotted darkorange 1px;
+		margin-left			: 10px;
+		width				: 374px;
+	}
+	div.textpanel div.linkview{
+		margin-left			: 5px;
+	}
+
+
+/* ><> ><> ><> ><> ><> css oranmentpanel layout codes <>< <>< <>< <>< <>< */	
+
+
+	div.ornamentpanel div.imglink{
+		width				: 200px;
+	}
+	div.rightpanel article.righttext{
+		outline				: dotted darkorange 1px;
+		margin-left			: 250px;
+	}
+	article.righttext h4.topic2{
+		outline				: dotted pink 1px;
+		width				: 210px;
+		margin-left			: 5px;
+	}
+	article.righttext p.maintext2{
+		outline				: dotted pink 1px;
+		min-height			: 75px;
+		width				: 210px;
+		margin-top			: 5px;
+		margin-left			: 5px;
+	}
+	article.lefttext{
+		outline				: dotted darkorange 2px;
+		margin-top			:1px;
+		margin-left			: 5px;
+		margin-right		: 5px;
+	}
+	article.lefttext h4.topic3{
+		outline				: dotted pink 1px;
+		margin-left			: 25px;
+	}
+	article.lefttext p.maintext3{
+		outline				: dotted pink 1px;
+		margin-right		: 2px;
+		margin-left			: 2px;
+	}
+	div.leftpanel div.learnmore{
+		margin-left			: 20px;
+	}
+
+
+/* ><> ><> ><> ><> ><> footer css layout codes ><> ><> ><> ><> ><> */	
+
+
+	footer.holdfooter{
+		outline				: darkmagenta 1px dashed;
+	}
+	footer.holdfooter div.locationaddress{
+		width				:500px;
+	}
+	footer.holdfooter div.fleftpanel{
+		margin-left			: 20px;
+	}
+	div.ffloor1 h4.topic4{
+		outline				: dashed 1px darkred;
+		margin-left			: 10px;
+	}
+	div.ffloor1 p.maintext4{
+		outline				: dashed 1px darkred;
+		height: 25px;
+	}
+	div.fleftpanel div.ffloor1{
+		margin-left			: 10px;
+	}
+	div.fleftpanel div.ffloor2{
+		margin-left			: 10px;
+		margin-top			: 2px;
+	}
+	div.ffloor2 div.fright{
+		margin-top			: 4px;
+	}
+	div.fright h3.contacttopic{
+		outline				: dashed 1px darkred;
+		min-height			: 20px;
+		margin-bottom		: 5px;
+	}
+	div.fright div.contact{
+		margin-left			: 5px;
+		margin-right		: 5px;
+		width				: 160px;
+		margin-top			: 3px;
+	}
+	div.ffloor2 div.fleft{
+		margin-left			: 5px;
+		margin-top			: 5px;
+	}
+	div.fleft h3.opentopic{
+		outline				: dotted darkorange 1px;
+		margin-left			:5px;
+	}
+	div.ffleft div.opentime{
+		width				: 45px;
+		margin-left			: 15px;
+	}
+
+
+/* ><> ><> ><> ><> ><> css lastfloor layout codes <>< <>< <>< <>< <>< */	
+
+
+	div.lastfloor{
+		margin-top			: 3px;
+	}

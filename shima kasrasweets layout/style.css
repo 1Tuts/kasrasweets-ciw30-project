@@ -1,0 +1,152 @@
+body{
+	background-image      : url('images/keithcakes.jpg');
+	background-repeat     : no-repeat;
+	background-position	  : center top;
+}
+div.container{
+	min-height            : 710px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+	outline               : 3px solid darkmagenta
+}
+header.headpage{
+	outline               : 3px solid darkblue;
+}
+div.picheader{
+	width                 : 180px;
+	margin-left           : 4px;
+	outline               : 2px dashed #1CCAD6;
+}
+nav.menu{
+	margin-left           : 190px;
+	outline               : 2px dashed #1CCAD6;
+}
+div.panel1{
+	outline               : 3px solid darkorange;
+}
+div.panel1 div.picp1{
+	width                 : 280px;
+	margin-right          : 18px;
+	outline               : 2px dashed #8C7D16;
+}
+div.panel1 div.boxp1{
+	margin-right          : 293px;
+	outline               : 2px dashed #8C7D16;
+}
+div.panel1 div.boxp1 article.textareap1{
+	margin-top            : 3px;
+	margin-left           : 5px;
+	width                 : 235px;
+	outline               : 2px dashed #FCCA03;
+}
+div.panel1 article.textareap1 h2.titlep1{
+	margin-top            : 2px;
+	outline               : 2px dashed red;
+}
+div.panel1 article.textareap1 p.textp1{
+	margin-top            : 4px;
+	outline               : 2px dashed red;
+}
+div.panel1 div.linkp1{
+	margin-top            : 8px;
+	outline               : 2px dashed red;
+}
+div.panel2{
+	outline               : 3px solid #024C08;
+}
+div.panel2 menu.menup2{
+	padding-top           : 2px;
+	outline               : 2px dashed #31F541;
+}
+div.panel2 div.slideshow{
+	margin-top            : 8px;
+	outline               : 2px dashed #31F541;
+}
+div.panel2 div.picp2{
+	margin-top            : 5px;
+	margin-right          : 15px;
+	outline               : 2px dashed red;
+}
+div.panel2 div.boxp2{
+	margin-top            : 5px;
+	margin-right          : 250px;
+	outline               : 2px dashed red;
+}
+div.panel2 div.boxp2 article.textareap2{
+	margin-top           : 5px;
+	margin-left          : 5px;
+	width                : 200px;
+	outline              : 2px dashed #FADD00;
+}
+div.panel2 article.textareap2 h2.titlep2{
+	margin-top           : 4px;
+	margin-left          : 5px;
+	outline              : 2px dashed darkorange;
+}
+div.panel2 article.textareap2 p.textp2{
+	margin-top           : 4px;
+	margin-left          : 5px;
+	outline              : 2px dashed darkorange;
+}
+div.panel2 div.linkp2{
+	margin-top           : 6px;
+	margin-left          : 5px;
+	outline              : 2px dashed #FADD00;
+}
+footer.footer{
+	outline              : 3px solid #FA007D;
+}
+footer div.picfooter{
+	margin-right         : 18px;
+	outline              : 2px dashed #1C181A;
+}
+footer article.boxfooter{
+	margin-right         : 300px;
+	outline              : 2px dashed #1C181A;
+}
+footer article.boxfooter h3.titlefooter{
+	min-height           : 12px;
+	margin-left          : 45px;
+	margin-top           : 4px;
+	outline              : 2px dashed red;
+}
+footer article.boxfooter p.textfooter{
+	width                : 202px;
+	margin-left          : 45px;
+	margin-top           : 6px;
+	outline              : 2px dashed red;
+}
+footer article.boxfooter h3.title2footer{
+	width                : 202px;
+	min-height           : 12px;
+	margin-left          : 45px;
+	margin-top           : 4px;
+	outline              : 2px dashed red;
+}
+footer article.boxfooter p.text2footer{
+	width                : 202px;
+	margin-left          : 45px;
+	margin-top           : 6px;
+	outline              : 2px dashed red;
+}
+footer article.boxfooter div.f-b{
+	width                : 202px;
+	margin-left          : 45px;
+	margin-top           : 4px;
+	outline              : 2px dashed red;
+}
+div.lastpanel{
+	margin-top           : 5px;
+	min-height           : 18px;
+	outline              : 3px solid #4F2B3D;
+}
+div.lastpanel div.lefttext{
+	margin-left          : 6px;
+	margin-top           : 4px;
+	outline              : 2px dashed #999;
+}
+div.lastpanel div.righttext{
+	margin-left          : 380px;
+	margin-top           : 4px;
+	outline              : 2px dashed #999;
+}

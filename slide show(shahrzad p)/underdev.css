@@ -1,0 +1,71 @@
+/* Under Develope Page */
+
+section.backimg div {
+	position : absolute;
+	width: 950px;
+	height: 398px;
+	margin-right: 50px;
+	top      : 0;
+	right    :0;
+	bottom   :0;
+	padding: 80px 100px 0 40px;
+	z-index  :-2;
+	background-position :500px 0;
+	background-repeat   :no-repeat;
+} 
+
+section.backimg div h2 {
+	color: #CC0D1C;
+	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+section.backimg div p {
+	margin-top: 15px;
+	color: #8D7E6F;
+	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+	font-size: 20px;
+}
+
+section.backimg div a.view {
+	font-family: 'Tangerine', cursive;
+	font-weight: normal;
+	display: block;
+	margin-top: 25px;
+	text-transform: none;
+	color: #54301A;
+	text-decoration: none;
+	background-image: url('images/strike.png');
+	background-repeat: no-repeat;
+	background-position: 30px;
+}
+
+section.backimg article {
+	float:left;
+	margin-top: 40px;
+}
+
+section.backimg article div {
+
+	float: left;
+	margin-top: 60px;
+	margin-right: 800px;
+}
+
+section.backimg div a.view:hover {
+	color: #CC0D1C;
+	text-decoration: none;
+}
+
+section.backimg div a div {
+	color: color: #CC0D1C;
+	cursor: pointer;
+	font-family: 'CoralRegular',sans-serif;
+	font-weight: normal;
+	text-transform: none;
+}
+
+
+
