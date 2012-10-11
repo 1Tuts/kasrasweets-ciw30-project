@@ -1,4 +1,3 @@
-/* Under Develope Page */
 
 section.backimg div {
 	position : absolute;
@@ -39,7 +38,7 @@ section.backimg div a.view {
 	text-decoration: none;
 	background-image: url('images/strike.png');
 	background-repeat: no-repeat;
-	background-position: 100px 30px;
+	background-position: 30px 20px;
 	min-height: 55px;
 }
 
