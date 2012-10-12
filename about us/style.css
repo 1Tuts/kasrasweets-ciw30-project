@@ -1,0 +1,226 @@
+body{
+	background            : url('images/background.png');
+}
+body div.siteoftheday{
+	background-image      : url('images/siteoftheday.png');
+	background-repeat     : no-repeat;
+	min-height            : 105px;
+	width                 : 69px;
+	float                 : right;
+}
+div.container{
+	min-height            : 710px;
+	margin-top            : 2px;
+	padding-top           : 5px;
+}
+header.headpage{
+	background-image      : url('images/header1.png');
+	background-repeat     : no-repeat;
+	background-position   : center;
+	height                : 242px;
+}
+nav.linkmenu{
+	margin-top            : 77px;
+	margin-left           : 270px;
+	
+}
+nav.linkmenu li{
+	background-image      : url('images/linkheader.png');
+	background-repeat     : no-repeat;
+	height                : 35px;
+	float                 : left;
+}
+nav.linkmenu li.home{
+	width                 : 125px;
+	background-position   : -2px -15px;
+}
+nav.linkmenu li.aboutus{
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+nav.linkmenu li.aboutus:hover{
+	background-position   :-130px -45px;
+}
+nav.linkmenu li.ourrange{
+	width                 : 130px;
+	background-position   :-245px -15px;
+}
+nav.linkmenu li.ourrange:hover{
+	background-position   :-245px -45px;
+}
+nav.linkmenu li.catering{
+	width                 : 109px;
+	background-position   :-375px -15px;
+}
+nav.linkmenu li.catering:hover{
+	background-position   :-375px -45px;
+}
+nav.linkmenu li.contact{
+	width                 : 90px;
+	background-position   :-480px -15px;
+}
+nav.linkmenu li.contact:hover{
+	background-position   :-480px -45px;
+}
+nav.linkmenu li.f-b{
+	width                 : 35px;
+	background-position   :-570px -15px;
+}
+nav.linkmenu li.f-b:hover{
+	background-position   :-570px -49px;
+}
+
+/*content..........................................................*/
+div.content {
+	height: 400px;
+}
+
+section.slideshow {
+	width: 450px;
+	float: right;
+}
+
+section.slideshow ul.train > li {
+	width: 450px;
+	height: 300px;
+	position:absolute;
+	z-index: 1;
+	left:0;
+	top:0;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+section.slideshow menu {
+	position:absolute;
+	left: 8px;
+	bottom: 8px;
+	z-index: 3;
+}
+
+section.slideshow menu li {
+	float:left;
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+	background-color: #333;
+	opacity: 0.7;
+	margin-right: 3px;
+	cursor: pointer;
+	-webkit-transition: all 500ms;
+}
+
+section.slideshow menu li:hover {
+	background-color: #CCE;
+	opacity: 1;
+}
+
+section.slideshow .train > li {
+	opacity:0;
+	-webkit-transform: scale(0.95);
+	-webkit-transition: all 800ms ease-out;
+}
+
+
+.step1 section.slideshow .train > li.pic1 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step2 section.slideshow .train > li.pic2 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step3 section.slideshow .train > li.pic3 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step4 section.slideshow .train > li.pic4 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step5 section.slideshow .train > li.pic5 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+section.text {
+	float: left;
+	width: 350px;
+	height: 350px;
+	margin-left: 30px;
+}
+
+section.text h2 {
+	font-size: 16px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: red;
+	margin-bottom: 20px;
+	margin-top: 50px;
+
+}
+
+section.text p {
+	font-size: 12px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: gray;
+	margin-bottom: 5px;
+}
+
+/*.footer..........................................................*/
+
+div.ornament {
+	background-image: url('images/ornament_21-background.png');
+	background-repeat: no-repeat;
+	min-height: 600px;
+	width: 1000px;
+}
+
+div.ornamentfoot {
+	background-image: url('images/ornament_1-background.png');
+	background-repeat: repeat-x;
+	min-height: 485px
+}
+
+footer div.seprator {
+	min-height: 320px;
+}
+
+div.seprator article h3 {
+	color: white;
+	font-size: 20px;
+	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 80px;
+	margin-left: 40px;
+
+}
+
+div.seprator article p {
+	color: white;
+	margin-top: 20px;
+	margin-left: 50px;
+	font-size: 16px;
+	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+}
+
+div.seprator img {
+	margin: 50px 100px;
+}
+
+div.copyright {
+	border-top: 1px dashed #8D7E6F;
+	min-height: 90px;
+}
+
+div.copyright p {
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
