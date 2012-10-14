@@ -1,8 +1,8 @@
 body{
-	background            : url('images/background.png');
+	background            : url('../images/background.png');
 }
 body div.siteoftheday{
-	background-image      : url('images/siteoftheday.png');
+	background-image      : url('../images/siteoftheday.png');
 	background-repeat     : no-repeat;
 	min-height            : 105px;
 	width                 : 69px;
@@ -14,7 +14,7 @@ div.container{
 	padding-top           : 5px;
 }
 header.headpage{
-	background-image      : url('images/header1.png');
+	background-image      : url('../images/header1.png');
 	background-repeat     : no-repeat;
 	background-position   : center;
 	height                : 242px;
@@ -25,7 +25,7 @@ nav.linkmenu{
 	
 }
 nav.linkmenu li{
-	background-image      : url('images/linkheader.png');
+	background-image      : url('../images/linkheader.png');
 	background-repeat     : no-repeat;
 	height                : 35px;
 	float                 : left;
@@ -135,13 +135,13 @@ nav.side menu li a:hover {
 /*footer..........................................................*/
 
 div.ornamentfoot {
-	background-image: url('images/ornament_1-background.png');
+	background-image: url('../images/ornament_1-background.png');
 	background-repeat: repeat-x;
 	min-height: 485px;
 }
 
 div.ornament div.ornament2 {
-	background-image: url('images/ornament_2-background.png');
+	background-image: url('../images/ornament_2-background.png');
 	background-repeat: no-repeat;
 	min-height: 500px;
 	background-position: center -5px;
