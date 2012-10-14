@@ -1,33 +1,33 @@
 menu.linkmenu li:hover{
-	list-style-type: none;
-	background-position: 0 0;
-	width: 276px;
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
 
 }
 menu.linkmenu li a{
-	display: block;
-	color:#54301A;
-	text-decoration: none;
-	text-align: center;
-	font-family: coral,arial;
-	font-weight: normal;
-	vertical-align: baseline;
-	font-size: 20px;
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: coral,arial;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 20px;
 
 
 }
 menu.linkmenu li{
-	height: 40px;
-	line-height: 30px;
-	width: 276px;
-	background-image: url('../images/sidebar-background.png');
-	background-repeat: no-repeat;
-	background-position: 0 39px;
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('../images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
 }
 menu.linkmenu li:hover a{
-	color: white;
-	display: block;
+	color				: white;
+	display				: block;
 }
 menu.linkmenu a:visited li {
-	background-position: 0 0;
+	background-position	: 0 0;
 }
