@@ -72,165 +72,159 @@ nav.linkmenu li.f-b:hover{
 
 /*content..........................................................*/
 div.content {
-	height: 650px;
+	height 				: 650px;
 }
 
 section.sidebar {
-	float: left;
-	width: 270px;
-	padding: 35px 55px 0 20px;
-	text-align: right;
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
 }
 
 p.intro {
-	color: #8D7E6F;
-	font-size: 16px;
-	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
-	line-height: 20px;
-	margin-bottom: 15px;
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
 }
 
-nav.side {
-	display: block;
-}
-
-nav.side menu {
-	font-family: 'CoralRegular',sans-serif;
-	font-weight: normal;
-	text-transform: none;
-	font-size: 18px;
-	position: relative;
-	width: 280px;
-	list-style: none;
-}
-
-nav.side menu li {
-	min-height: 40px;
-	line-height: 30px;
-	border-bottom: 1px solid #E6E5E4;
-}
-
-nav.side menu li.last {
-	border-bottom: none;
+/* left menu........................................................*/
+menu.linkmenu li:hover{
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
 
 }
+menu.linkmenu li a{
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: coral,arial;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 20px;
 
-nav.side menu li a {
-	display: block;
-	padding-bottom: 20px;
-	padding-top: 15px;
-	text-decoration: none;
-	font-size: 18px;
-	color: #54301A;
+
 }
-nav.side menu li:hover {
-	color: red;
+menu.linkmenu li{
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('../images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+}
+menu.linkmenu li:hover a{
+	color				: white;
+	display				: block;
+}
+menu.linkmenu a:visited li {
+	background-position	: 0 0;
 }
 
-nav.side menu li a:hover {
-	color: white;
-	display: block;
-}
 
 /*footer..........................................................*/
 
 div.ornamentfoot {
-	background-image: url('../images/ornament_1-background.png');
-	background-repeat: repeat-x;
-	min-height: 485px;
+	background-image	: url('../images/ornament_1-background.png');
+	background-repeat	: repeat-x;
+	min-height			: 485px;
 }
 
 div.ornament div.ornament2 {
-	background-image: url('../images/ornament_2-background.png');
-	background-repeat: no-repeat;
-	min-height: 500px;
-	background-position: center -5px;
+	background-image	: url('../images/ornament_2-background.png');
+	background-repeat	: no-repeat;
+	min-height			: 500px;
+	background-position	: center -5px;
 }
 
  footer div.seprator {
-	min-height: 320px;
+	min-height			: 320px;
 }
 
 div.seprator article h3 {
-	color: #8D7E6F;
-	font-size: 20px;
-	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
-	font-weight: normal;
-	text-transform: uppercase;
-	margin-top: 30px;
-	margin-left: 40px;
+	color				: #8D7E6F;
+	font-size			: 20px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	font-weight			: normal;
+	text-transform		: uppercase;
+	margin-top			: 30px;
+	margin-left			: 40px;
 
 }
 
 div.seprator article p {
-	color: #8D7E6F;
-	margin-top: 20px;
-	margin-left: 55px;
-	font-size: 14px;
-	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+	color				: #8D7E6F;
+	margin-top			: 20px;
+	margin-left			: 55px;
+	font-size			: 14px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
 }
 
 #hours {
-	float: left;
-	width: 185px;
-	padding-left: 80px;
-	padding-top: 20px;
+	float				: left;
+	width				: 185px;
+	padding-left		: 80px;
+	padding-top			: 20px;
 }
 
 #hours h3 {
-	font-family: 'CoralRegular',sans-serif;
-	font-weight: normal;
-	text-transform: none;
-	padding: 5px;
-	color: white;
-	font-size: 14px;
-	margin-bottom: 10px;
+	font-family			: 'CoralRegular',sans-serif;
+	font-weight			: normal;
+	text-transform		: none;
+	padding 			: 5px;
+	color				: white;
+	font-size			: 14px;
+	margin-bottom		: 10px;
 }
 
 #hours li {
-	list-style: none;
-	font-size: 12px;
-	font-family: 'CoralRegular',sans-serif;
-	color: white;
-	line-height: 20px;
-	padding-left: 15px;
+	list-style			: none;
+	font-size			: 12px;
+	font-family			: 'CoralRegular',sans-serif;
+	color				: white;
+	line-height			: 20px;
+	padding-left		: 15px;
 }
 
 #hours p {
-	margin-top: 20px;
+	margin-top			: 20px;
 }
 
 #hours p a {
-	background: url('images/keith-fb-icon.png');
-	background-repeat: no-repeat;
-	background-position: top left;
-	color: white;
-	display: block;
-	height: 20px;
-	padding: 5px 0 0 29px;
-	margin-left: 10px;
-	list-style: none;
+	background 			: url('images/keith-fb-icon.png');
+	background-repeat	: no-repeat;
+	background-position	: top left;
+	color				: white;
+	display				: block;
+	height 				: 20px;
+	padding 			: 5px 0 0 29px;
+	margin-left			: 10px;
+	list-style			: none;
 }
 
 #hours p a:hover {
-	color: #D8CFC6;
+	color				: #D8CFC6;
 }
 
 div.seprator img {
-	margin: -60px 130px;
-	float: right;
-	opacity: 0.9;
+	margin 				: -60px 130px;
+	float				: right;
+	opacity				: 0.9;
 }
 
 div.copyright {
-	border-top: 1px dashed #8D7E6F;
-	min-height: 50px;
+	border-top			: 1px dashed #8D7E6F;
+	min-height			: 50px;
 }
 
 div.copyright p {
-	float: left;
-	margin-top: 15px;
-	margin-left: 10px;
-	color: white;
-	font-size: 12px;
+	float				: left;
+	margin-top			: 15px;
+	margin-left			: 10px;
+	color				: white;
+	font-size			: 12px;
 }
