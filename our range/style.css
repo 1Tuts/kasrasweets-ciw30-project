@@ -72,115 +72,79 @@ nav.linkmenu li.f-b:hover{
 
 /*content..........................................................*/
 div.content {
-	height: 600px;
+	height: 650px;
 }
+
 section.sidebar {
 	float: left;
-	width: 450px;
-	margin-top: 20px;
-	padding-left: 40px;
+	width: 270px;
+	padding: 35px 55px 0 20px;
+	text-align: right;
 }
 
-form {
+p.intro {
+	color: #8D7E6F;
+	font-size: 16px;
+	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+
+nav.side {
 	display: block;
 }
 
-form p {
-	margin-bottom: 20px;
-	text-transform: uppercase;
+nav.side menu {
+	font-family: 'CoralRegular',sans-serif;
+	font-weight: normal;
+	text-transform: none;
+	font-size: 18px;
+	position: relative;
+	width: 280px;
+	list-style: none;
 }
 
-form p input {
-	color: #54301A;
-	font-size: 12px;
-	border-bottom: 1px solid #E6E5E4;
-	width: 300px;
-	min-height: 30px;
-	border: none;
-}
-
-input::-webkit-input-placeholder {
-    color: #54301A;
-}
-
- input:-moz-placeholder {
-    color: #54301A;
-}
-
-form p textarea {
-	color: #54301A;
-	font-size: 12px;
-	border: 1px solid #E6E5E4;
-	width: 300px;
-	min-height: 30px;
-}
-
-form p button {
-	cursor: pointer;
-	background-image: url('images/buttons.png');
-	background-repeat: no-repeat;
-	width: 160px;
+nav.side menu li {
 	min-height: 40px;
+	line-height: 30px;
+	border-bottom: 1px solid #E6E5E4;
+}
+
+nav.side menu li.last {
+	border-bottom: none;
+
+}
+
+nav.side menu li a {
 	display: block;
-	border: none;
-	margin: 0 auto;
-	background-position: 0 -26px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #54301A;
+}
+nav.side menu li:hover {
+	color: red;
 }
 
-section.map {
-	width: 455px;
-	float: right;
+nav.side menu li a:hover {
+	color: white;
 	display: block;
-	border: 1px solid gray;
-	border-radius: 6px;
 }
 
-section.map article h2 {
-	color: #CC0D1C;
-	font-size: 20px;
-	text-transform: uppercase;
-	margin-top: 10px;
-	margin-left: 20px;
-}
+/*footer..........................................................*/
 
-section.map article p {
-	margin-left: 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-section.map article p span {
-	color: #CC0D1C;
-	font-size: 17px;
-	text-transform: uppercase;
-}
-
-section.map iframe {
-	border: 10px solid white;
-	border-radius: 5px;
-	margin-top: 20px;
-}
-/*.footer..........................................................*/
 div.ornamentfoot {
 	background-image: url('images/ornament_1-background.png');
 	background-repeat: repeat-x;
 	min-height: 485px;
-	position: relative;
-
 }
 
-footer div.pic {
-	background-image: url('images/ornament_21-background.png');
+div.ornament div.ornament2 {
+	background-image: url('images/ornament_2-background.png');
 	background-repeat: no-repeat;
-	min-height: 300px;
-	position: center -5px;
-}
-
-footer {
-color: #D8CFC6;
-overflow: hidden;
-position: relative;
-z-index: 0;
+	min-height: 500px;
+	background-position: center -5px;
 }
 
  footer div.seprator {
@@ -188,37 +152,85 @@ z-index: 0;
 }
 
 div.seprator article h3 {
+	color: #8D7E6F;
 	font-size: 20px;
 	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
 	font-weight: normal;
 	text-transform: uppercase;
-	margin-top: 80px;
+	margin-top: 30px;
 	margin-left: 40px;
 
 }
 
 div.seprator article p {
+	color: #8D7E6F;
 	margin-top: 20px;
-	margin-left: 50px;
-	font-size: 16px;
+	margin-left: 55px;
+	font-size: 14px;
 	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
 }
 
+#hours {
+	float: left;
+	width: 185px;
+	padding-left: 80px;
+	padding-top: 20px;
+}
+
+#hours h3 {
+	font-family: 'CoralRegular',sans-serif;
+	font-weight: normal;
+	text-transform: none;
+	padding: 5px;
+	color: white;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+#hours li {
+	list-style: none;
+	font-size: 12px;
+	font-family: 'CoralRegular',sans-serif;
+	color: white;
+	line-height: 20px;
+	padding-left: 15px;
+}
+
+#hours p {
+	margin-top: 20px;
+}
+
+#hours p a {
+	background: url('images/keith-fb-icon.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	color: white;
+	display: block;
+	height: 20px;
+	padding: 5px 0 0 29px;
+	margin-left: 10px;
+	list-style: none;
+}
+
+#hours p a:hover {
+	color: #D8CFC6;
+}
+
 div.seprator img {
-	margin-bottom: -60px;
-	margin-right: 120px;
+	margin: -60px 130px;
 	float: right;
+	opacity: 0.9;
 }
 
 div.copyright {
 	border-top: 1px dashed #8D7E6F;
-	min-height: 90px;
+	min-height: 50px;
 }
 
 div.copyright p {
 	float: left;
 	margin-top: 15px;
 	margin-left: 10px;
-	color: black;
+	color: white;
 	font-size: 12px;
 }

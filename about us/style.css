@@ -72,122 +72,127 @@ nav.linkmenu li.f-b:hover{
 
 /*content..........................................................*/
 div.content {
-	height: 600px;
+	height: 400px;
 }
-section.sidebar {
-	float: left;
+
+section.slideshow {
 	width: 450px;
-	margin-top: 20px;
-	padding-left: 40px;
-}
-
-form {
-	display: block;
-}
-
-form p {
-	margin-bottom: 20px;
-	text-transform: uppercase;
-}
-
-form p input {
-	color: #54301A;
-	font-size: 12px;
-	border-bottom: 1px solid #E6E5E4;
-	width: 300px;
-	min-height: 30px;
-	border: none;
-}
-
-input::-webkit-input-placeholder {
-    color: #54301A;
-}
-
- input:-moz-placeholder {
-    color: #54301A;
-}
-
-form p textarea {
-	color: #54301A;
-	font-size: 12px;
-	border: 1px solid #E6E5E4;
-	width: 300px;
-	min-height: 30px;
-}
-
-form p button {
-	cursor: pointer;
-	background-image: url('images/buttons.png');
-	background-repeat: no-repeat;
-	width: 160px;
-	min-height: 40px;
-	display: block;
-	border: none;
-	margin: 0 auto;
-	background-position: 0 -26px;
-}
-
-section.map {
-	width: 455px;
 	float: right;
-	display: block;
-	border: 1px solid gray;
-	border-radius: 6px;
 }
 
-section.map article h2 {
-	color: #CC0D1C;
-	font-size: 20px;
-	text-transform: uppercase;
-	margin-top: 10px;
-	margin-left: 20px;
-}
-
-section.map article p {
-	margin-left: 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-section.map article p span {
-	color: #CC0D1C;
-	font-size: 17px;
-	text-transform: uppercase;
-}
-
-section.map iframe {
-	border: 10px solid white;
+section.slideshow ul.train > li {
+	width: 450px;
+	height: 300px;
+	position:absolute;
+	z-index: 1;
+	left:0;
+	top:0;
 	border-radius: 5px;
-	margin-top: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
+
+section.slideshow menu {
+	position:absolute;
+	left: 8px;
+	bottom: 8px;
+	z-index: 3;
+}
+
+section.slideshow menu li {
+	float:left;
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+	background-color: #333;
+	opacity: 0.7;
+	margin-right: 3px;
+	cursor: pointer;
+	-webkit-transition: all 500ms;
+}
+
+section.slideshow menu li:hover {
+	background-color: #CCE;
+	opacity: 1;
+}
+
+section.slideshow .train > li {
+	opacity:0;
+	-webkit-transform: scale(0.95);
+	-webkit-transition: all 800ms ease-out;
+}
+
+
+.step1 section.slideshow .train > li.pic1 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step2 section.slideshow .train > li.pic2 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step3 section.slideshow .train > li.pic3 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step4 section.slideshow .train > li.pic4 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step5 section.slideshow .train > li.pic5 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+section.text {
+	float: left;
+	width: 350px;
+	height: 350px;
+	margin-left: 30px;
+}
+
+section.text h2 {
+	font-size: 16px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: red;
+	margin-bottom: 20px;
+	margin-top: 50px;
+
+}
+
+section.text p {
+	font-size: 12px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: gray;
+	margin-bottom: 5px;
+}
+
 /*.footer..........................................................*/
+
+div.ornament {
+	background-image: url('images/ornament_21-background.png');
+	background-repeat: no-repeat;
+	min-height: 600px;
+	width: 1000px;
+}
+
 div.ornamentfoot {
 	background-image: url('images/ornament_1-background.png');
 	background-repeat: repeat-x;
-	min-height: 485px;
-	position: relative;
-
+	min-height: 485px
 }
 
-footer div.pic {
-	background-image: url('images/ornament_21-background.png');
-	background-repeat: no-repeat;
-	min-height: 300px;
-	position: center -5px;
-}
-
-footer {
-color: #D8CFC6;
-overflow: hidden;
-position: relative;
-z-index: 0;
-}
-
- footer div.seprator {
+footer div.seprator {
 	min-height: 320px;
 }
 
 div.seprator article h3 {
+	color: white;
 	font-size: 20px;
 	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
 	font-weight: normal;
@@ -198,6 +203,7 @@ div.seprator article h3 {
 }
 
 div.seprator article p {
+	color: white;
 	margin-top: 20px;
 	margin-left: 50px;
 	font-size: 16px;
@@ -205,9 +211,7 @@ div.seprator article p {
 }
 
 div.seprator img {
-	margin-bottom: -60px;
-	margin-right: 120px;
-	float: right;
+	margin: 50px 100px;
 }
 
 div.copyright {
@@ -219,6 +223,4 @@ div.copyright p {
 	float: left;
 	margin-top: 15px;
 	margin-left: 10px;
-	color: black;
-	font-size: 12px;
 }
