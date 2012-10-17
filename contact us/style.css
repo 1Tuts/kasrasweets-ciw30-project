@@ -104,6 +104,14 @@ input:-moz-placeholder {
     color: #54301A;
 }
 
+input:-o-placeholder {
+    color: #54301A;
+}
+
+input:-ms-placeholder {
+    color: #54301A;
+}
+
 form textarea {
 	color: #54301A;
 	font-size: 12px;
