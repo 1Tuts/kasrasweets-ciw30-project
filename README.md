@@ -19,6 +19,8 @@ This website is for kasra confectionary who produce different kind of pastry and
 * [1Styles](http://ali.md/1styles)
 * [html5shiv](http://ali.md/html5shiv)
 * [JavaScript](http://ali.md/wiki/javascript)
+* [JavaScript](http://ali.md/js/jguery)
+* [JavaScript](http://ali.md/js/zepto)
 
 
 ### The Team :
