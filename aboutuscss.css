@@ -94,18 +94,17 @@ div.content3 img {
 	border: 5px solid;
 	border-radius: 5px;
 	margin-left: 70px;
-	box-shadow: 50px 50px 10px black;
 }
 
 section.text {
 	float: left;
-	width: 400px;
+	width: 450px;
 	height: 300px;
 	margin-left: 100px;
 }
 
 section.text h2 {
-	font-size: 24px;
+	font-size: 22px;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: red;
 	margin-bottom: 20px;
@@ -114,7 +113,7 @@ section.text h2 {
 }
 
 section.text p {
-	font-size: 18px;
+	font-size: 14px;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: gray;
 	margin-bottom: 5px;
