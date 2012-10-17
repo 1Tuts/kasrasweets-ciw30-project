@@ -86,12 +86,8 @@ form {
 	display: block;
 }
 
-form p {
-	margin-bottom: 20px;
-	text-transform: uppercase;
-}
-
 form  input {
+	margin-bottom: 20px;
 	color: #54301A;
 	font-size: 12px;
 	border: none;
