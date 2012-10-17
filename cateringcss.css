@@ -57,18 +57,16 @@ nav.linkmenu li.aboutus a:hover {
 
 nav.linkmenu li.ourrange a {
 	width                 : 130px;
+	background-position   :-245px -14px;
+}
+nav.linkmenu li.ourrange a:hover{
 	background-position   :-245px -45px;
 }
 
 nav.linkmenu li.catering a {
 	width                 : 109px;
-	background-position   :-375px -15px;
-}
-
-nav.linkmenu li.catering a:hover {
 	background-position   :-375px -45px;
 }
-
 nav.linkmenu li.contact a {
 	width                 : 90px;
 	background-position   :-480px -15px;
