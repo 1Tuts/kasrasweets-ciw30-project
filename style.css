@@ -156,7 +156,6 @@ div.footer{
 div.footer div.scroller{
 	background-image      : url('images/scroller.png');
 	margin-left           : 201px;
-	outline: 1px solid #000;
 }
 
 div.footer menu li.leftspan {
@@ -164,7 +163,6 @@ div.footer menu li.leftspan {
 	min-height: 20px;
 	margin-left: 20px;
 	margin-top: 20px;
-	outline: 1px solid #000;
 }
 div.footer li.leftspan a:hover{
 	
@@ -175,7 +173,6 @@ div.footer menu.menup2 li{
 	overflow: hidden;
 	text-align: center;
 	margin-left: 20px;
-	outline: 1px solid #000;
 }
 div.footer menu.menup2 li a{
 	background-image      : url('images/scroller-items.jpg');
