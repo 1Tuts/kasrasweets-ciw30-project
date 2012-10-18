@@ -108,10 +108,11 @@ menu.linkmenu li a{
 	color				:#54301A;
 	text-decoration		: none;
 	text-align			: center;
-	font-family			: coral,arial;
+	font-family			: 'Satisfy', cursive;
 	font-weight			: normal;
 	vertical-align		: baseline;
-	font-size			: 20px;
+	font-size			: 23px;
+	
 
 
 }
@@ -122,6 +123,7 @@ menu.linkmenu li{
 	background-image	: url('images/sidebar-background.png');
 	background-repeat	: no-repeat;
 	background-position	: 0 39px;
+	
 }
 menu.linkmenu li:hover a{
 	color				: white;
