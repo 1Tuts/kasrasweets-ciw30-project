@@ -318,10 +318,7 @@ div.footerimg{
 }
 
 footer.wholeimage{
-	min-height			: 377px;
-	background-position	: center -3px;
-	padding-top			: 100px;
-	overflow			: hidden;
+	padding-top			: 60px;
 }
 
 div.copypanels {
