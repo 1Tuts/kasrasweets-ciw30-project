@@ -390,17 +390,17 @@ div.wcard div.adr p{
 	font-weight			: normal;
 	margin-top			: 5px;
 	font-size			: 15px;
-	color				: #d8cfc6 ;
+	color				: #54301A ;
 }
 div.adr p.faxtel{
 	white-space			: pre;
-	color				: white !important;
+	color				: #54301A!important;
 	font-weight			: bold;
 	margin-top			: 10px;
 	font-size			: 13px;
 }
 div.adr p.faxtel span{ 
-	color				:#d8cfc6;
+	color				:#54301A;
 }
 div.adr p.email{
 	white-space			: pre;
@@ -416,5 +416,4 @@ div.wholetext div.mapimg{
 	background-image	: url('images/footer-background-sections.png');
 	background-repeat	: no-repeat;
 	z-index: 2;
-	position: absolute;
 }
