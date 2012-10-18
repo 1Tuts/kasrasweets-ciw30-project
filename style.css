@@ -361,6 +361,7 @@ section.openhours ul.wevent li span{
 	color				: #54301A !important;
 	font-weight			: normal;
 	margin-left			: 15px;
+	margin-left: 5px;
 }
 section.openhours ul.wevent li.firstopen{
 	margin-top			: 20px;
