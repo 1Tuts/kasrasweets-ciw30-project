@@ -59,11 +59,9 @@ nav.linkmenu li.catering:hover{
 }
 nav.linkmenu li.contact{
 	width                 : 90px;
-	background-position   :-480px -15px;
-}
-nav.linkmenu li.contact:hover{
 	background-position   :-480px -45px;
 }
+
 nav.linkmenu li.f-b{
 	width                 : 35px;
 	background-position   :-570px -15px;
