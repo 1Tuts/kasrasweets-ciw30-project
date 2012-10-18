@@ -123,7 +123,7 @@ section.slideshow menu li:hover {
 section.slideshow .train > li {
 	opacity:0;
 	-webkit-transform: scale(0.95);
-	-webkit-transition: all 800ms ease-out;
+	-webkit-transition: all 500ms ease-out;
 }
 
 
