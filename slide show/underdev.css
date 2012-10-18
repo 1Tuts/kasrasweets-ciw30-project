@@ -59,8 +59,8 @@ section.backimg div a.view:hover {
 	text-decoration: none;
 }
 
-section.backimg div a div {
-	color: color: #CC0D1C;
+section.backimg div a span{
+	color: #CC0D1C;
 	cursor: pointer;
 	font-family: 'CoralRegular',sans-serif;
 	font-weight: normal;
