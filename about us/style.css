@@ -73,7 +73,7 @@ nav.linkmenu li.f-b:hover{
 }
 
 /*content..........................................................*/
-div.content {
+div.content3 {
 	height: 400px;
 }
 
@@ -172,6 +172,24 @@ section.text p {
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: gray;
 	margin-bottom: 5px;
+}
+div.content2 {
+	height 				: 650px;
+}
+
+section.sidebar {
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
+}
+
+p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
 }
 
 /* left menu........................................................*/
