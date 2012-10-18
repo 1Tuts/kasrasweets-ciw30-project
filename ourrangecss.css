@@ -83,8 +83,7 @@ div.content3 {
 
 section.slideshow {
 	width: 450px;
-	float: left;
-	margin-left: 180px;
+	margin-left: 400px;
 }
 
 section.slideshow ul.train > li {
@@ -160,7 +159,7 @@ section.text {
 	float: left;
 	width: 350px;
 	height: 350px;
-	margin-left: 30px;
+	margin-left: 100px;
 }
 
 section.text h2 {
