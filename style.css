@@ -1,5 +1,8 @@
+/* Under Develope Page */
 body{
 	background            : url('images/background.png');
+	background-position   : top center;
+	background-repeat     : repeat-y;
 }
 body div.siteoftheday{
 	background-image      : url('images/siteoftheday.png');
@@ -9,16 +12,14 @@ body div.siteoftheday{
 	float                 : right;
 }
 div.container{
-	min-height            : 1042px;
+	min-height            : 670px;
 	margin-top            : 2px;
 	padding-top           : 5px;
-	outline               : 2px dashed #8C7D16;
 }
 /*.................................*header*....................................*/
 header.headpage{
 	background-image      : url('images/header1.png');
 	background-repeat     : no-repeat;
-	margin-left           : 39px;
 	margin-top            : 9px;
 	height                : 242px;
 }
@@ -74,107 +75,193 @@ nav.linkmenu li.f-b a:hover{
 	background-position   :-570px -49px;
 }
 /*..................................*panel1*..................................*/
-div.panel1{
-	outline               : 3px solid darkorange;
+section.backimg div {
+	position             : absolute;
+	width                : 950px;
+	height               : 398px;
+	margin-right: 256px;
+	top      : 0;
+	right    :0;
+	bottom   :0;
+	padding: 242px 102px 0 40px;
+	z-index  :-2;
+	background-position :442px 206px;
+	background-repeat   :no-repeat;
+} 
+
+section.backimg div h2 {
+	color: #CC0D1C;
+	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 22px;
 }
-div.panel1 div.picp1{
-	background-image      : url('images/image-1.jpg');
+
+section.backimg div p {
+	margin-top: 15px;
+	color: #8D7E6F;
+	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
+	font-size: 20px;
+}
+
+section.backimg a {
+	font-family: 'Tangerine', cursive;
+	font-weight: normal;
+	display: block;
+	margin-top: 25px;
+	text-transform: none;
+	color: #54301A;
+	text-decoration: none;
+	background-image: url('images/strike.png');
 	background-repeat     : no-repeat;
-	background-position   : center;
-	width                 : 485px;
-	margin-right          : 18px;
-	outline               : 2px dashed #8C7D16;
 }
-div.panel1 div.boxp1{
-	margin-left           : 5px;         
-	margin-right          : 515px;
-	outline               : 2px dashed #8C7D16;
+section.backimg a:hover{
+	color: #CC0D1C;
 }
-div.panel1 div.boxp1 article.textareap1{
-	margin-top            : 3px;
-	margin-left           : 5px;
-	width                 : 417px;
-	outline               : 2px dashed #FCCA03;
+section.backimg span{
+	margin-left: 3px;
+	color: #CC0D1C;
 }
-div.panel1 article.textareap1 h2.titlep1{
-	margin-top            : 7px;
-	outline               : 2px dashed red;
-	width                 : 210px;
-	margin-left           : 33px;
+section.backimg article {
+	float:left;
+	margin-top: 40px;
 }
-div.panel1 article.textareap1 p.textp1{
-	margin-top            : 18px;
-	margin-left           : 33px;
-	width                 : 375px;
-	outline               : 2px dashed red;
+
+section.backimg article div {
+
+	float: left;
+	margin-top: 60px;
+	margin-right: 800px;
 }
-div.panel1 div.linkp1{
-	margin-top            : 12px;
-	min-height            : 33px;
-	outline               : 2px dashed red;
+
+section.backimg div a.view:hover {
+	color: #CC0D1C;
+	text-decoration: none;
 }
-div.panel1 div.strike{
-	width                 : 135px;
-	margin-left           : 128px;
-	background-image      : url('images/strike.png');
-	background-repeat     : no-repeat;
-	outline               : 2px dashed red;
+
+section.backimg div a div {
+	color: color: #CC0D1C;
+	cursor: pointer;
+	font-family: 'CoralRegular',sans-serif;
+	font-weight: normal;
+	text-transform: none;
 }
 /*..................................*panel2*..................................*/
-div.panel2{
-	margin-bottom         : 4px;
-	outline               : 2px solid darkmagenta;
+div.footer{
+	background-position: center 0;
 }
-div.panel2 div.scroller{
-	width                 : 950px;
+div.footer div.scroller{
 	background-image      : url('images/scroller.png');
+	margin-left           : 473px;
 }
-div.panel2 menu.menup2{
-
+div.footer div.scroller li.left{
+	width: 20px;
+	height: 20px;
+	margin-left: 20px;
+	margin-top: 61px;
+	outline: 1px dashed red;
+}
+div.footer menu.menup2 li{
+	float: left;
+	height: 130px;
+	overflow: hidden;
+	text-align: center;
+	margin-left: 20px;
+}
+div.footer menu.menup2 li a{
+	background-image      : url('images/scroller-items.jpg');
 	padding-top           : 2px;
-	outline               : 2px dashed #31F541;
+    padding-bottom: 1px;
+	display: block;
+	height: 95px;
+	margin-top: 10px;
+	font-family : 'coral-webfont', cursive;
+	font-size : 20px;
+	color: #aba492;
+	text-decoration: none;
 }
-div.panel2 div.slideshow{
-	width                 : 880px;
-	outline               : 2px dashed #31F541;
+div.footer li.celebration a{
+	width                 : 110px;
+	background-position   : -35px -2px;
 }
-div.panel2 div.picp2{
-	width                 : 464px;
-	height                : 188px;
-	margin-top            : 12px;
-	margin-right          : 4px;
-	outline               : 2px dashed red;
+div.footer li.celebration a:hover{
+	background-position   :-35px -137px;
 }
-div.panel2 div.boxp2{
+div.footer li.children a{
+	width                 : 110px;
+	background-position   : -165px -2px;
+}
+div.footer li.children a:hover{
+	background-position   :-165px -137px;
+}
+div.footer li.dessert a{
+	width                 : 110px;
+	background-position   : -308px -2px;
+}
+div.footer li.dessert a:hover{
+	background-position   :-308px -137px;
+}
+div.footer li.savouries a{
+	width                 : 110px;
+	background-position   : -440px -2px;
+}
+div.footer li.savouries a:hover{
+	background-position   :-440px -137px;
+}
+div.footer li.health a{
+	width                 : 110px;
+	background-position   : -581px -2px;
+}
+div.footer li.health a:hover{
+	background-position   :-581px -137px;
+}
+div.footer li.cupcake a{
+	width                 : 110px;
+	background-position   : -726px -2px;
+}
+div.footer li.cupcake a:hover{
+	background-position   :-726px -137px;
+}
+
+div.footer div.slideshow{
+	margin-top            : 8px;
+	
+}
+div.footer div.picp2{
 	margin-top            : 5px;
-	margin-right          : 490px;
-	outline               : 2px dashed red;
+	margin-right          : 15px;
+	
 }
-div.panel2 div.boxp2 article.textareap2{
+div.footer div.boxp2{
+	margin-left          : 457px;
+	outline: 1px dashed red;
+}
+div.footer div.boxp2 article.textareap2{
 	margin-top           : 5px;
 	margin-left          : 5px;
-	width                : 383px;
-	outline              : 2px dashed #FADD00;
+	width                : 200px;
+	
 }
-div.panel2 article.textareap2 h2.titlep2{
-	margin-top           : 5px;
-	margin-left          : 1px;
-	outline              : 2px dashed darkorange;
+div.footer article.textareap2 h2.titlep2{
+	margin-top           : 4px;
+	margin-left          : 5px;
+	color: #fff;
+	font-size: 24px;
+	
 }
-div.panel2 article.textareap2 p.textp2{
-	width: 380px;
-	margin-top           : 15px;
-	margin-left          : 1px;
-	outline              : 2px dashed darkorange;
+div.footer article.textareap2 p.textp2{
+	margin-top           : 4px;
+	margin-left          : 5px;
+	font-size: 15px;
+	color: #fff;
 }
-div.panel2 div.linkp2{
-	margin-top           : 12px;
-	margin-left          : 2px;
-	outline              : 2px dashed #FADD00;
+div.footer div.linkp2{
+	margin-top           : 6px;
+	margin-left          : 5px;
+	color: #fff;
 }
-div.panel2 div.footer{
-	width                : 318px;
-	margin-bottom        : 2px;
-	outline              : 2px dashed #0000ff;
+div.footer div.linkp2 span{
+	margin-left: 3px;
+	color: #CC0D1C;
+	font-size: 19px;	
 }
-
