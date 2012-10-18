@@ -217,7 +217,9 @@ section.copyright1 div.copypanels p{
 
 
 }
-
+div.wholetext{
+	z-index: 2 !important;
+}
 
 footer.wholeimg div.wholetext{
 	width				: 950px;
@@ -237,9 +239,7 @@ div.addresstext p{
 }
 div.addresstext section.openhours h4{
 	color				: white;
-	font-size			: 20px;
-	font-family			: 'Satisfy', cursive;
-
+	font-size			: 17px;
 }
 section.openhours ul.wevent li span{
 	color				: #d8cfc6 !important;
@@ -260,20 +260,18 @@ section.openhours ul.wevent li p{
 }
 section div.wcard h4{
 	color				: white;
-	font-size			: 20px;
-	font-family			: 'Satisfy', cursive;
-	
+	font-size			: 17px;
 }
 section div.wcard p{
-	margin-top			: 20px;
-	font-size			: 30px;
+	margin-top			: 17px;
+	font-size			: 23px;
 	font-weight			: normal;
 	color				: white;
 }
 div.wcard div.adr p{
 	
 	font-weight			: normal;
-	margin-top			: 10px;
+	margin-top			: 5px;
 	font-size			: 15px;
 	color				: #d8cfc6 ;
 }
