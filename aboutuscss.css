@@ -1,49 +1,48 @@
+<<<<<<< HEAD
 
 body {
 	background 				: url('images/background.png');
+=======
+body{
+	background            : url('images/background.png');
+>>>>>>> origin/master
 	background-position		:top center;
 	background-repeat		: repeat-y;
 }
-
-body div.siteoftheday {
+body div.siteoftheday{
 	background-image      : url('images/siteoftheday.png');
 	background-repeat     : no-repeat;
 	min-height            : 105px;
 	width                 : 69px;
 	float                 : right;
 }
-
-div.container {
+div.container{
 	min-height            : 710px;
 	margin-top            : 2px;
 	padding-top           : 5px;
 }
-
-header.headpage {
+header.headpage{
 	background-image      : url('images/header1.png');
 	background-repeat     : no-repeat;
 	background-position   : center;
 	height                : 242px;
 }
-
-nav.linkmenu {
+nav.linkmenu{
 	margin-top            : 77px;
 	margin-left           : 270px;
 	
 }
-
-nav.linkmenu li a {
+nav.linkmenu li{
 	background-image      : url('images/linkheader.png');
 	background-repeat     : no-repeat;
 	height                : 35px;
 	float                 : left;
-	display               : block;
 }
-
-nav.linkmenu li.home a {
+nav.linkmenu li.home{
 	width                 : 125px;
 	background-position   : -2px -15px;
 }
+<<<<<<< HEAD
 
 nav.linkmenu li.aboutus a {
 	width                 : 115px;
@@ -54,34 +53,52 @@ nav.linkmenu li.ourrange a {
 	background-position   :-245px -14px;
 }
 nav.linkmenu li.ourrange a:hover{
+=======
+nav.linkmenu li.aboutus{
+	width                 : 115px;
+	background-position   :-130px -15px;
+}
+nav.linkmenu li.aboutus:hover{
+	background-position   :-130px -45px;
+}
+nav.linkmenu li.ourrange{
+	width                 : 130px;
+	background-position   :-245px -15px;
+}
+nav.linkmenu li.ourrange:hover{
+>>>>>>> origin/master
 	background-position   :-245px -45px;
 }
-
-nav.linkmenu li.catering a {
+nav.linkmenu li.catering{
 	width                 : 109px;
 	background-position   :-375px -15px;
 }
+<<<<<<< HEAD
 nav.linkmenu li.catering a:hover{
 	background-position   :-375px -45px;	
 }
 nav.linkmenu li.contact a {
-	width                 : 90px;
-	background-position   :-480px -15px;
+=======
+nav.linkmenu li.catering:hover{
+	background-position   :-375px -45px;
 }
-
-nav.linkmenu li.contact a:hover {
+nav.linkmenu li.contact{
+>>>>>>> origin/master
+	width                 : 90px;
 	background-position   :-480px -45px;
 }
 
+<<<<<<< HEAD
 nav.linkmenu li.f-b a {
+=======
+nav.linkmenu li.f-b{
+>>>>>>> origin/master
 	width                 : 35px;
 	background-position   :-570px -15px;
 }
-
-nav.linkmenu li.f-b a:hover {
+nav.linkmenu li.f-b:hover{
 	background-position   :-570px -49px;
 }
-
 /*content..........................................................*/
 
 div.content3 {
@@ -92,18 +109,17 @@ div.content3 img {
 	border: 5px solid;
 	border-radius: 5px;
 	margin-left: 70px;
-	box-shadow: 50px 50px 10px black;
 }
 
 section.text {
 	float: left;
-	width: 400px;
+	width: 450px;
 	height: 300px;
 	margin-left: 100px;
 }
 
 section.text h2 {
-	font-size: 24px;
+	font-size: 22px;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: red;
 	margin-bottom: 20px;
@@ -112,7 +128,7 @@ section.text h2 {
 }
 
 section.text p {
-	font-size: 18px;
+	font-size: 14px;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	color: gray;
 	margin-bottom: 5px;
