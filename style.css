@@ -284,18 +284,23 @@ div.footer article.textareap2 p.textp2{
 	font-size: 12px;
 	color: white;
 }
+
+div.footer div.linkp2 {
+	margin-top: 45px;
+	margin-left: 45px;
+}
 div.footer div.linkp2 a{
 	padding-top: 20px;
-	margin-left : 12px;
+	margin-left : 10px;
 	color: #fff;
-	font-size: 18px;
+	font-size: 24px;
 	text-decoration: none;
 	font-family: 'Satisfy', cursive; 
 }
 div.footer div.linkp2 span{
 	margin-left: 5px;
 	color: #CC0D1C;
-	font-size: 19px;	
+	font-size: 24px;	
 }
 a.copyright {
 	width: 277px;
