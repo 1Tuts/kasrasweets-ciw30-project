@@ -1,3 +1,4 @@
+
 body {
 	background 				: url('images/background.png');
 	background-position		:top center;
@@ -44,17 +45,15 @@ nav.linkmenu li.home a {
 	background-position   : -2px -15px;
 }
 
-nav.linkmenu li.aboutus  {
+nav.linkmenu li.aboutus a {
 	width                 : 115px;
-	background-position   :-130px -15px;
-}
-
-nav.linkmenu li.aboutus a:hover {
 	background-position   :-130px -45px;
 }
-
 nav.linkmenu li.ourrange a {
 	width                 : 130px;
+	background-position   :-245px -14px;
+}
+nav.linkmenu li.ourrange a:hover{
 	background-position   :-245px -45px;
 }
 
@@ -62,11 +61,9 @@ nav.linkmenu li.catering a {
 	width                 : 109px;
 	background-position   :-375px -15px;
 }
-
-nav.linkmenu li.catering a:hover {
-	background-position   :-375px -45px;
+nav.linkmenu li.catering a:hover{
+	background-position   :-375px -45px;	
 }
-
 nav.linkmenu li.contact a {
 	width                 : 90px;
 	background-position   :-480px -15px;
@@ -75,6 +72,7 @@ nav.linkmenu li.contact a {
 nav.linkmenu li.contact a:hover {
 	background-position   :-480px -45px;
 }
+
 nav.linkmenu li.f-b a {
 	width                 : 35px;
 	background-position   :-570px -15px;
