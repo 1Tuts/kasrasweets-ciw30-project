@@ -324,7 +324,7 @@ footer.wholeimage{
 	overflow			: hidden;
 }
 div.copypanels p{
-	color				:white;
+	color				:;
 	min-height			: 35px;
 	width				: 950px;
 	margin-bottom		: 0;
@@ -332,6 +332,7 @@ div.copypanels p{
 	margin-left			: auto;
 	margin-top			: 30px;
 	font-size			: 12px;
+	border-top			: dashed 1px #8d7e6f;
 
 
 }
@@ -347,7 +348,7 @@ footer.wholeimg div.wholetext{
 	
 }
 div.addresstext h5{
-	color				: white;
+	color				: #CC0D1C;
 	font-size			: 14px;
 
 }
@@ -356,7 +357,7 @@ div.addresstext p{
 	font-size			: 15px;
 }
 div.addresstext section.openhours h4{
-	color				: white;
+	color				: #CC0D1C;
 	font-size			: 17px;
 }
 section.openhours ul.wevent li span{
@@ -369,22 +370,20 @@ section.openhours ul.wevent li.firstopen{
 }
 section.openhours ul.wevent li p{
 	white-space			: pre;
-	color				: white;
+	color				: #54301A;
 	font-weight			: bold;
 	margin-top			: 10px;
 	font-size			: 13px;
-	
-
 }
 section div.wcard h4{
-	color				: white;
+	color				: #CC0D1C;
 	font-size			: 17px;
 }
 section div.wcard p{
 	margin-top			: 17px;
 	font-size			: 23px;
 	font-weight			: normal;
-	color				: white;
+	color				: #54301A;
 }
 div.wcard div.adr p{
 	
@@ -405,13 +404,13 @@ div.adr p.faxtel span{
 }
 div.adr p.email{
 	white-space			: pre;
-	color				: white !important;
+	color				: #CC0D1C !important;
 	font-weight			: bold;
 	margin-top			: 10px;
 	font-size			: 13px;
 }
 div.adr p.email span{
-	color				:#d8cfc6;
+	color				: #CC0D1C;
 }
 div.wholetext div.mapimg{
 	background-image	: url('images/footer-background-sections.png');
