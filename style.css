@@ -307,3 +307,115 @@ a.copyright {
 	font-size: 14px;
 	text-decoration: none;
 }
+
+/*footer..........................................................*/
+div.footerimg{
+	min-height			: 483px;
+	position 			:relative;
+	clear				: both;
+	width				: 100%;
+	bottom 				: auto;	
+}
+
+footer.wholeimage{
+	min-height			: 377px;
+	background-position	: center -3px;
+	padding-top			: 100px;
+	overflow			: hidden;
+}
+div.copypanels p{
+	color				:white;
+	min-height			: 35px;
+	width				: 950px;
+	margin-bottom		: 0;
+	margin-right		: auto;
+	margin-left			: auto;
+	margin-top			: 30px;
+	font-size			: 12px;
+
+
+}
+div.wholetext{
+	z-index: 2 !important;
+}
+
+footer.wholeimg div.wholetext{
+	width				: 950px;
+	margin-left			: auto;
+	margin-right		: auto;
+	margin-top			: 10px;
+	
+}
+div.addresstext h5{
+	color				: white;
+	font-size			: 14px;
+
+}
+div.addresstext p{
+	color				: #d8cfc6;
+	font-size			: 15px;
+}
+div.addresstext section.openhours h4{
+	color				: white;
+	font-size			: 17px;
+}
+section.openhours ul.wevent li span{
+	color				: #d8cfc6 !important;
+	font-weight			: normal;
+	margin-left			: 15px;
+}
+section.openhours ul.wevent li.firstopen{
+	margin-top			: 20px;
+}
+section.openhours ul.wevent li p{
+	white-space			: pre;
+	color				: white;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+	
+
+}
+section div.wcard h4{
+	color				: white;
+	font-size			: 17px;
+}
+section div.wcard p{
+	margin-top			: 17px;
+	font-size			: 23px;
+	font-weight			: normal;
+	color				: white;
+}
+div.wcard div.adr p{
+	
+	font-weight			: normal;
+	margin-top			: 5px;
+	font-size			: 15px;
+	color				: #d8cfc6 ;
+}
+div.adr p.faxtel{
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+div.adr p.faxtel span{ 
+	color				:#d8cfc6;
+}
+div.adr p.email{
+	white-space			: pre;
+	color				: white !important;
+	font-weight			: bold;
+	margin-top			: 10px;
+	font-size			: 13px;
+}
+div.adr p.email span{
+	color				:#d8cfc6;
+}
+div.wholetext div.mapimg{
+	background-image	: url('images/footer-background-sections.png');
+	background-repeat	: no-repeat;
+	z-index: 2;
+	position: absolute;
+}
