@@ -323,8 +323,12 @@ footer.wholeimage{
 	padding-top			: 100px;
 	overflow			: hidden;
 }
+
+div.copypanels {
+	border-top			: dashed 1px #8d7e6f;
+}
+
 div.copypanels p{
-	color				:;
 	min-height			: 35px;
 	width				: 950px;
 	margin-bottom		: 0;
@@ -332,9 +336,6 @@ div.copypanels p{
 	margin-left			: auto;
 	margin-top			: 30px;
 	font-size			: 12px;
-	border-top			: dashed 1px #8d7e6f;
-
-
 }
 div.wholetext{
 	z-index: 2 !important;
