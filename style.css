@@ -176,14 +176,14 @@ div.footer menu.menup2 li{
 }
 div.footer menu.menup2 li a{
 	background-image      : url('images/scroller-items.jpg');
-	padding-top           : 2px;
-    padding-bottom: 1px;
+	padding-top           : 100px;
+    padding-right: 5px;
 	display: block;
 	height: 95px;
 	margin-top: 10px;
-	font-family : 'coral-webfont', cursive;
-	font-size : 20px;
-	color: #aba492;
+	font-family : 'Satisfy', cursive; 
+	font-size : 15px;
+	color: ##54301A;
 	text-decoration: none;
 }
 div.footer li.celebration a{
