@@ -114,6 +114,7 @@ section.backimg a {
 	text-decoration: none;
 	background-image: url('images/strike.png');
 	background-repeat     : no-repeat;
+	background-position:90px 70px;
 }
 section.backimg a:hover{
 	color: #CC0D1C;
@@ -130,7 +131,6 @@ section.backimg article {
 }
 
 section.backimg article div {
-
 	float: left;
 	margin-top: 60px;
 	margin-right: 800px;
@@ -283,7 +283,7 @@ div.footer article.textareap2 p.textp2{
 	margin-left          : 5px;
 	font-size: 12px;
 	color: white;
-	line-height: 14px;
+	line-height: 15px;
 }
 
 div.footer div.linkp2 {
