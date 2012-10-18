@@ -29,6 +29,9 @@ This website is for kasra confectionary who produce different kind of pastry and
 * [Shima Pichaghsaz](https://github.com/shpichaghsaz) Designer / Developer
 * [Maede Kafiyan Safari](https://github.com/m-kafiyan) Designer / Developer
 * [Souror Soltani](https://github.com/sorour-hsb) Data Gather
+* [Ali Aghasizadeh](https://github.com/aligh) Technical Advisor
+* [Mohamad Rahimpoor](https://github.com/mrahimpoor) Graphic Advisor
+* [Mohamad Sedaghat](https://github.com/sedaghat) Business Advisor
 
 
 ### Our Desire Design Is :
