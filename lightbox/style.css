@@ -1,20 +1,19 @@
 body {
-	background-image: url('images/bg-pattern.png');
-	color: white;
+	background-image    : url('images/bg-pattern.png');
+	color               : white;
 }
 
 .gallery{
-	width: 550px;
+	width               : 550px;
 }
 
 .gallery li {
-	float: left;
-	margin-right: 15px;
+	float               : left;
+	margin-right        : 15px;
+}
 }
 
 .gallery li a {
-	display: block;
-	border: 8px solid #FAFAFA;
-	border-bottom-width: 30px;
-	border-radius: 2px;
-}
+	display             : block;
+	border-bottom-width : 30px;
+	
