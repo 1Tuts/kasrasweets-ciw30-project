@@ -272,10 +272,9 @@ div.footer div.boxp2 article.textareap2{
 	width                : 380px;
 }
 div.footer article.textareap2 h2.titlep2{
-	margin-top           : 4px;
 	margin-left          : 5px;
 	color: white;
-	font-size: 22px;
+	font-size: 2px;
 	padding-bottom: 10px;
 }
 div.footer article.textareap2 p.textp2{
@@ -283,7 +282,7 @@ div.footer article.textareap2 p.textp2{
 	margin-left          : 5px;
 	font-size: 12px;
 	color: white;
-	line-height: 15px;
+	line-height: 18px;
 }
 
 div.footer div.linkp2 {
