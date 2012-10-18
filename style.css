@@ -165,7 +165,7 @@ div.footer menu li.leftspan {
 	margin-top: 20px;
 }
 div.footer li.leftspan a:hover{
-	
+	color:  #54301A;
 }
 div.footer menu.menup2 li{
 	float: left;
@@ -183,7 +183,7 @@ div.footer menu.menup2 li a{
 	margin-top: 10px;
 	font-family : 'Satisfy', cursive; 
 	font-size : 15px;
-	color: ##54301A;
+	color: #54301A;
 	text-decoration: none;
 }
 div.footer li.celebration a{
