@@ -77,6 +77,107 @@ nav.linkmenu li.f-b a:hover{
 
 
 /*content..........................................................*/
+div.content3 {
+	height: 400px;
+}
+
+section.slideshow {
+	width: 450px;
+	float: left;
+	margin-left: 180px;
+}
+
+section.slideshow ul.train > li {
+	width: 450px;
+	height: 300px;
+	position:absolute;
+	z-index: 1;
+	left:0;
+	top:0;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+section.slideshow menu {
+	position:absolute;
+	left: 8px;
+	bottom: 8px;
+	z-index: 3;
+}
+
+section.slideshow menu li {
+	float:left;
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+	background-color: #333;
+	opacity: 0.7;
+	margin-right: 3px;
+	cursor: pointer;
+	-webkit-transition: all 500ms;
+}
+
+section.slideshow menu li:hover {
+	background-color: #CCE;
+	opacity: 1;
+}
+
+section.slideshow .train > li {
+	opacity:0;
+	-webkit-transform: scale(0.95);
+	-webkit-transition: all 800ms ease-out;
+}
+
+
+.step1 section.slideshow .train > li.pic1 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step2 section.slideshow .train > li.pic2 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step3 section.slideshow .train > li.pic3 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step4 section.slideshow .train > li.pic4 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+.step5 section.slideshow .train > li.pic5 {
+	-webkit-transform: scale(1);
+	opacity:1;
+}
+
+section.text {
+	float: left;
+	width: 350px;
+	height: 350px;
+	margin-left: 30px;
+}
+
+section.text h2 {
+	font-size: 16px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: red;
+	margin-bottom: 20px;
+	margin-top: 50px;
+
+}
+
+section.text p {
+	font-size: 12px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: gray;
+	margin-bottom: 5px;
+}
 div.content {
 	height 				: 650px;
 }
