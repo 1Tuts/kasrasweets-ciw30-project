@@ -386,7 +386,7 @@ div.copypanels p {
 	font-size			: 12px;
 }
 
-div.wholetext 
+div.wholetext {
 	z-index: 2 !important;
 }
 
