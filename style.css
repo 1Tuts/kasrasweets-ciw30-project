@@ -107,7 +107,8 @@ section.backimg a {
 	font-family: 'Tangerine', cursive;
 	font-weight: normal;
 	display: block;
-	margin-top: 25px;
+	padding: 35px 0;
+	font-size: 30px;
 	text-transform: none;
 	color: #54301A;
 	text-decoration: none;
@@ -154,7 +155,7 @@ div.footer{
 }
 div.footer div.scroller{
 	background-image      : url('images/scroller.png');
-	margin-left           : 473px;
+	margin-left           : 201px;
 	outline: 1px solid #000;
 }
 
@@ -299,9 +300,10 @@ div.footer div.linkp2 span{
 }
 a.copyright {
 	width: 277px;
-	margin-top: 66px;
-	margin-left: 805px;
-	color: #54301A;
-	font-size: 20px;
+	margin-top: 70px;
+	margin-lef :10px;
+	color: black;
+	border-top : 1px dashed black;
+	font-size: 14px;
 	text-decoration: none;
 }
