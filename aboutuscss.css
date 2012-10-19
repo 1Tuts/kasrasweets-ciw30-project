@@ -264,7 +264,8 @@ div.addresstext p {
 
 div.addresstext section.openhours h4 {
 	color				: white;
-	font-size			: 17px;
+	font-size			: 21px;
+	font-family			:'Satisfy', cursive; 
 }
 
 section.openhours ul.wevent li span {
@@ -287,7 +288,8 @@ section.openhours ul.wevent li p {
 
 section div.wcard h4 {
 	color				: white;
-	font-size			: 17px;
+	font-size			: 21px;
+	font-family			:'Satisfy', cursive; 	
 }
 
 section div.wcard p {
