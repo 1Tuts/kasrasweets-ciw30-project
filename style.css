@@ -88,6 +88,8 @@ nav.linkmenu li.contact a:hover {
 nav.linkmenu li.f-b a {
 	width                 : 35px;
 	background-position   :-570px -15px;
+	background-image: url('images/f-b.png');
+	background-repeat: no-repeat;
 }
 
 nav.linkmenu li.f-b a:hover {
