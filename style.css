@@ -107,7 +107,8 @@ section.backimg a {
 	font-family: 'Tangerine', cursive;
 	font-weight: normal;
 	display: block;
-	margin-top: 25px;
+	padding: 35px 0;
+	font-size: 30px;
 	text-transform: none;
 	color: #54301A;
 	text-decoration: none;
