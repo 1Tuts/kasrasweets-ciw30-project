@@ -124,6 +124,8 @@ section.backimg span{
 section.backimg article {
 	float:left;
 	margin-top: 40px;
+	width: 380px;
+	height: 200px;
 }
 
 section.backimg article div {
