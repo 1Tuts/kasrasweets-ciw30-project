@@ -63,13 +63,17 @@ nav.linkmenu li.contact a{
 nav.linkmenu li.contact a:hover{
 	background-position   :-480px -45px;
 }
-nav.linkmenu li.f-b a{
-	width                 : 35px;
-	background-position   :-570px -15px;
+nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
 }
-nav.linkmenu li.f-b a:hover{
-	background-position   :-570px -49px;
-}
+
+nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
+} 
 
 /*content..........................................................*/
 section.sidebar {
