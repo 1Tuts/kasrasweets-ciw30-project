@@ -300,9 +300,10 @@ div.footer div.linkp2 span{
 }
 a.copyright {
 	width: 277px;
-	margin-top: 66px;
+	margin-top: 70px;
 	margin-lef :10px;
 	color: black;
+	border-top : 1px dashed black;
 	font-size: 14px;
 	text-decoration: none;
 }
