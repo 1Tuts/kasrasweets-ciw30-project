@@ -169,14 +169,6 @@ menu.linkmenu li {
 	
 }
 
-menu.linkmenu li.celebrationcake {
-	background-position: 0 0 !important;
-
-}
-menu.linkmenu li.celebrationcake a{
-	color				: white !important;
-	display				: block;
-}
 menu.linkmenu li:hover a{
 	color				: white;
 	display				: block;
