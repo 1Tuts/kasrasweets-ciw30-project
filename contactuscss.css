@@ -103,6 +103,9 @@ input::-webkit-input-placeholder {
 input:-moz-placeholder {
     color					: #54301A;
 }
+input:-o-placeholder {
+	 color					: #54301A;
+}
 
 form textarea {
 	color					: #54301A;
