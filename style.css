@@ -115,6 +115,7 @@ section.backimg a {
 	background-image: url('images/strike.png');
 	background-repeat     : no-repeat;
 	background-position:90px 70px;
+	cursor: pointer;
 }
 section.backimg a:hover{
 	color: #CC0D1C;
@@ -141,7 +142,7 @@ section.backimg div a.view:hover {
 	text-decoration: none;
 }
 
-section.backimg div a div {
+section.backimg div a span {
 	color: color: #CC0D1C;
 	cursor: pointer;
 	font-family: 'CoralRegular',sans-serif;
