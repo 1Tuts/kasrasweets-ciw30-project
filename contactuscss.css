@@ -181,10 +181,6 @@ footer.wholeimg{
 	background-position	: center -3px;
 	padding-top			: 100px;
 	overflow			: hidden;
-
-	
-	
-
 }
 div.imgpatch{
 	background-image	: url('images/ornament_1-background.png');
@@ -215,7 +211,7 @@ section.copyright1 div.copypanels p{
 	margin-bottom		: 0;
 	margin-right		: auto;
 	margin-left			: auto;
-	margin-top			: 30px;
+	margin-top			: 15px;
 	font-size			: 12px;
 
 
