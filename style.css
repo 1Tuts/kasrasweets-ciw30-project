@@ -354,6 +354,7 @@ div.addresstext p{
 div.addresstext section.openhours h4{
 	color				: #CC0D1C;
 	font-size			: 17px;
+	font-family			:'Satisfy', cursive; 
 }
 section.openhours ul.wevent li span{
 	color				: #54301A !important;
@@ -373,6 +374,7 @@ section.openhours ul.wevent li p{
 section div.wcard h4{
 	color				: #CC0D1C;
 	font-size			: 17px;
+	font-family			:'Satisfy', cursive; 
 }
 section div.wcard p{
 	margin-top			: 17px;
