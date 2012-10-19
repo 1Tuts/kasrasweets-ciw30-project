@@ -82,9 +82,9 @@ section.backimg div {
 	top      : 0;
 	right    :0;
 	bottom   :0;
-	padding: 242px 102px 0 40px;
+	padding: 290px 180px 0 0px;
 	z-index  :-2;
-	background-position :442px 206px;
+	background-position :490px 245px;
 	background-repeat   :no-repeat;
 } 
 
@@ -100,7 +100,7 @@ section.backimg div p {
 	margin-top: 15px;
 	color: #8D7E6F;
 	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
-	font-size: 20px;
+	font-size: 17px;
 }
 
 section.backimg a {
@@ -124,6 +124,8 @@ section.backimg span{
 section.backimg article {
 	float:left;
 	margin-top: 40px;
+	width: 380px;
+	height: 200px;
 }
 
 section.backimg article div {
