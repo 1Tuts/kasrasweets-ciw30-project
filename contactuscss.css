@@ -193,7 +193,8 @@ div.imgpatch{
 	z-index				:1;
 
 }
-section.copyright1{
+
+section.copyright1 {
 	background-image	: url('images/ornament_1-background.png');
 	background-position	: center 0;
 	background-repeat	: repeat-x;
@@ -204,7 +205,7 @@ section.copyright1{
 	margin-top			: 83px
 }
 
-section.copyright1 div.copypanels p{
+section.copyright1 div.copypanels p {
 	color				:white;
 	min-height			: 35px;
 	width				: 950px;
@@ -213,14 +214,13 @@ section.copyright1 div.copypanels p{
 	margin-left			: auto;
 	margin-top			: 15px;
 	font-size			: 12px;
-
-
 }
-div.wholetext{
+
+div.wholetext {
 	z-index: 2 !important;
 }
 
-footer.wholeimg div.wholetext{
+footer.wholeimg div.wholetext {
 	width				: 950px;
 	margin-left			: auto;
 	margin-right		: auto;
