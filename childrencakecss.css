@@ -276,21 +276,25 @@ div.wholetext div.mapimg{
 	position: absolute;
 }
 /*..........content3......................*/
-div.content3{
+div.text1{
 	outline: red dashed 2px;
 }
-div.content3 div.viewchildrencake{
+div.text1 div.viewchildrencake{
 	outline: blue dashed 1px;
 }
-div.content3 div.panels{
+div.text1 div.panels{
 	outline: red dashed 2px;
 }
-div.content3 div.panels div.viewpanel1{
+div.text1 div.panels div.viewpanel1{
 	outline: blue dashed 1px;
 }
-div.content3 div.panels div.viewpanel2{
+div.text1 div.panels div.viewpanel2{
 	outline: blue dashed 1px;
 }
-div.content3 div.panels div.viewpanel3{
+div.text1 div.panels div.viewpanel3{
 	outline: blue dashed 1px;
+}
+div.text1 div.viewchildrencake h4{
+	color: #CC0D1C;
+	font-family:'Satisfy', cursive;;
 }
