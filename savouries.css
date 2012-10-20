@@ -1,5 +1,5 @@
 body{
-	background            : url('images/background.png');
+	background 				: url('images/background.png');
 	background-position		:top center;
 	background-repeat		: repeat-y;
 }
@@ -11,7 +11,7 @@ body div.siteoftheday{
 	float                 : right;
 }
 div.container{
-	min-height            : 710px;
+	min-height            : 1000px;
 	margin-top            : 2px;
 	padding-top           : 5px;
 }
@@ -21,11 +21,12 @@ header.headpage{
 	background-position   : center;
 	height                : 242px;
 }
-nav.linkmenu {
+nav.linkmenu{
 	margin-top            : 77px;
 	margin-left           : 270px;
 	
 }
+
 nav.linkmenu li a{
 	background-image      : url('images/linkheader.png');
 	background-repeat     : no-repeat;
@@ -46,10 +47,6 @@ nav.linkmenu li.aboutus a:hover{
 }
 nav.linkmenu li.ourrange a{
 	width                 : 130px;
-	background-position   :-245px -15px;
-}
-nav.linkmenu li.ourrange a:hover{
-	width                 : 130px;
 	background-position   :-245px -45px;
 }
 nav.linkmenu li.catering a{
@@ -61,6 +58,9 @@ nav.linkmenu li.catering a:hover{
 }
 nav.linkmenu li.contact a{
 	width                 : 90px;
+	background-position   :-480px -15px;
+}
+nav.linkmenu li.contact a:hover{
 	background-position   :-480px -45px;
 }
 nav.linkmenu li.f-b a{
@@ -71,102 +71,69 @@ nav.linkmenu li.f-b a:hover{
 	background-position   :-570px -49px;
 }
 
-
 /*content..........................................................*/
-div.content {
-	height 					: 600px;
-}
-
 section.sidebar {
-	float					: left;
-	width					: 450px;
-	margin-top				: 20px;
-	padding-left			: 40px;
+	float				: left;
+	width				: 270px;
+	padding 			: 35px 55px 0 20px;
+	text-align			: right;
 }
 
-form {
-	display					: block;
+p.intro {
+	color				: #8D7E6F;
+	font-size			: 16px;
+	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
+	line-height			: 20px;
+	margin-bottom		: 15px;
 }
 
-form  input {
-	margin-bottom			: 20px;
-	color					: #54301A;
-	font-size				: 12px;
-	border 					: none;
-	border-bottom			: 1px solid #E6E5E4;
-	width					: 300px;
-	min-height				: 30px;
+/* left menu........................................................*/
+menu.linkmenu li:hover{
+	list-style-type		: none;
+	background-position	: 0 0;
+	width				: 276px;
+
+}
+menu.linkmenu li a{
+	display				: block;
+	color				:#54301A;
+	text-decoration		: none;
+	text-align			: center;
+	font-family			: 'Satisfy', cursive;
+	font-weight			: normal;
+	vertical-align		: baseline;
+	font-size			: 23px;
+	
+
+
+}
+menu.linkmenu li{
+	height 				: 40px;
+	line-height			: 30px;
+	width				: 276px;
+	background-image	: url('images/sidebar-background.png');
+	background-repeat	: no-repeat;
+	background-position	: 0 39px;
+	
+}
+menu.linkmenu li.childrencake{
+	background-position: 0 0 !important;
+
+}
+menu.linkmenu li.childrencake a{
+	color				: white !important;
+	display				: block;
+}
+menu.linkmenu li:hover a{
+	color				: white;
+	display				: block;
+}
+menu.linkmenu a:visited li {
+	background-position	: 0 0;
 }
 
-input::-webkit-input-placeholder {
-    color					: #54301A;
-}
 
-input:-moz-placeholder {
-    color					: #54301A;
-}
-input:-o-placeholder {
-	 color					: #54301A;
-}
-
-form textarea {
-	color					: #54301A;
-	font-size				: 12px;
-	border 					: 1px solid #E6E5E4;
-	width					: 300px;
-	min-height				: 150px;
-}
-
-form button {
-	cursor					: pointer;
-	background-image		: url('images/buttons.png');
-	background-repeat		: no-repeat;
-	width					: 160px;
-	min-height				: 40px;
-	display					: block;
-	border 					: none;
-	background-position		: 0 -26px;
-	margin-left				: 150px;
-}
-form button:hover{
-	cursor: pointer;
-	background-position: -164px -26px;
-}
-
-section.map {
-	width					: 455px;
-	float					: right;
-	display					: block;
-	border 					: 1px solid gray;
-	border-radius			: 6px;
-}
-
-section.map article h2 {
-	color					: #CC0D1C;
-	font-size				: 20px;
-	text-transform			: uppercase;
-	margin-top				: 10px;
-	margin-left				: 20px;
-}
-
-section.map article p {
-	margin-left				: 20px;
-	margin-top				: 20px;
-	margin-bottom			: 20px;
-}
-
-section.map article p span {
-	color					: #CC0D1C;
-	font-size				: 17px;
-	text-transform			: uppercase;
-}
-
-section.map iframe {
-	border 					: 10px solid white;
-	border-radius			: 5px;
-	margin-top				: 20px;
-}
-/*.footer..........................................................*/
+/*footer..........................................................*/
 div.footerimg{
 	background-image	: url('images/ornament_1-background.png');
 	min-height			: 483px;
@@ -183,6 +150,10 @@ footer.wholeimg{
 	background-position	: center -3px;
 	padding-top			: 100px;
 	overflow			: hidden;
+
+	
+	
+
 }
 div.imgpatch{
 	background-image	: url('images/ornament_1-background.png');
@@ -195,8 +166,7 @@ div.imgpatch{
 	z-index				:1;
 
 }
-
-section.copyright1 {
+section.copyright1{
 	background-image	: url('images/ornament_1-background.png');
 	background-position	: center 0;
 	background-repeat	: repeat-x;
@@ -207,22 +177,23 @@ section.copyright1 {
 	margin-top			: 83px
 }
 
-section.copyright1 div.copypanels p {
+section.copyright1 div.copypanels p{
 	color				:white;
 	min-height			: 35px;
 	width				: 950px;
 	margin-bottom		: 0;
 	margin-right		: auto;
 	margin-left			: auto;
-	margin-top			: 15px;
+	margin-top			: 30px;
 	font-size			: 12px;
-}
 
-div.wholetext {
+
+}
+div.wholetext{
 	z-index: 2 !important;
 }
 
-footer.wholeimg div.wholetext {
+footer.wholeimg div.wholetext{
 	width				: 950px;
 	margin-left			: auto;
 	margin-right		: auto;
@@ -240,7 +211,8 @@ div.addresstext p{
 }
 div.addresstext section.openhours h4{
 	color				: white;
-	font-size			: 17px;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
 }
 section.openhours ul.wevent li span{
 	color				: #d8cfc6 !important;
@@ -261,7 +233,8 @@ section.openhours ul.wevent li p{
 }
 section div.wcard h4{
 	color				: white;
-	font-size			: 17px;
+	font-size			: 22px;
+	font-family			: 'Satisfy', cursive;
 }
 section div.wcard p{
 	margin-top			: 17px;
@@ -301,4 +274,40 @@ div.wholetext div.mapimg{
 	background-repeat	: no-repeat;
 	z-index: 2;
 	position: absolute;
+}
+/*..........text1......................*/
+
+div.text1 div.viewchildrencake h4{
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 25px;
+	font-weight			: bold;
+}
+div.text1 div.viewchildrencake p{
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 13px;
+	margin-bottom		: 5px;
+
+}
+div.text1 div.viewchildrencake p a{
+	text-decoration		: none;
+	color				: #54301a;
+}
+div.text1 div.panels img {
+	border 				: solid #f7f5f3 2px;
+	border-radius		: 10px;
+}
+div.text1 div.panels h5
+{
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 22px;
+	font-weight			: bold;
+}
+div.text1 div.panels p{
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 17px;
+	margin-bottom		: 5px;
 }
