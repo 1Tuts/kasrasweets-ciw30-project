@@ -1,79 +1,90 @@
 /*header.................................*/
 
-body{
+body {
 	background 				: url('images/background.png');
 	background-position		:top center;
 	background-repeat		: repeat-y;
 }
-body div.siteoftheday{
+
+body div.siteoftheday {
 	background-image      : url('images/siteoftheday.png');
 	background-repeat     : no-repeat;
 	min-height            : 105px;
 	width                 : 69px;
 	float                 : right;
 }
-div.container{
+
+div.container {
 	min-height            : 710px;
 	margin-top            : 2px;
 	padding-top           : 5px;
 }
-header.headpage{
+
+header.headpage {
 	background-image      : url('images/header1.png');
 	background-repeat     : no-repeat;
 	background-position   : center;
 	height                : 242px;
 }
-nav.linkmenu{
+nav.linkmenu {
 	margin-top            : 77px;
 	margin-left           : 270px;
 	
 }
 
-nav.linkmenu li a{
+nav.linkmenu li a {
 	background-image      : url('images/linkheader.png');
 	background-repeat     : no-repeat;
 	height                : 35px;
 	float                 : left;
 	display               : block;
 }
-nav.linkmenu li.home a{
+
+nav.linkmenu li.home a {
 	width                 : 125px;
 	background-position   : -2px -15px;
 }
-nav.linkmenu li.aboutus a{
+
+nav.linkmenu li.aboutus a {
 	width                 : 115px;
 	background-position   :-130px -15px;
 }
-nav.linkmenu li.aboutus a:hover{
+
+nav.linkmenu li.aboutus a:hover {
 	background-position   :-130px -45px;
 }
-nav.linkmenu li.ourrange a{
+
+nav.linkmenu li.ourrange a {
 	width                 : 130px;
 	background-position   :-245px -15px;
 }
-nav.linkmenu li.ourrange a:hover{
+
+nav.linkmenu li.ourrange a:hover {
 	background-position   :-245px -45px;
 }
-nav.linkmenu li.catering a{
+
+nav.linkmenu li.catering a {
 	width                 : 109px;
 	background-position   :-375px -45px;
 }
-nav.linkmenu li.contact a{
+
+nav.linkmenu li.contact a {
 	width                 : 90px;
 	background-position   :-480px -15px;
 }
-nav.linkmenu li.contact a:hover{
+
+nav.linkmenu li.contact a:hover {
 	background-position   :-480px -45px;
 }
-nav.linkmenu li.f-b a{
+
+nav.linkmenu li.f-b a {
 	width                 : 35px;
 	background-position   :-570px -15px;
 }
-nav.linkmenu li.f-b a:hover{
+
+nav.linkmenu li.f-b a:hover {
 	background-position   :-570px -49px;
 }
-
-
 
 /*content..........................................................*/
 div.content3 {
@@ -127,7 +138,6 @@ section.slideshow .train > li {
 	-webkit-transform: scale(0.95);
 	-webkit-transition: all 500ms ease-out;
 }
-
 
 .step1 section.slideshow .train > li.pic1 {
 	-webkit-transform: scale(1);
@@ -252,8 +262,7 @@ div.footerimg {
 	position 			:relative;
 	clear				: both;
 	width				: 100%;
-	bottom 				: auto;
-	
+	bottom 				: auto;	
 }
 
 footer.wholeimg {
@@ -383,8 +392,7 @@ div.adr p.email {
 	font-size			: 13px;
 }
 
-div.adr p.email span 
-{
+div.adr p.email span {
 	color				:#d8cfc6;
 }
 div.wholetext div.mapimg {
