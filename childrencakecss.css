@@ -275,3 +275,22 @@ div.wholetext div.mapimg{
 	z-index: 2;
 	position: absolute;
 }
+/*..........content3......................*/
+div.content3{
+	outline: red dashed 2px;
+}
+div.content3 div.viewchildrencake{
+	outline: blue dashed 1px;
+}
+div.content3 div.panels{
+	outline: red dashed 2px;
+}
+div.content3 div.panels div.viewpanel1{
+	outline: blue dashed 1px;
+}
+div.content3 div.panels div.viewpanel2{
+	outline: blue dashed 1px;
+}
+div.content3 div.panels div.viewpanel3{
+	outline: blue dashed 1px;
+}
