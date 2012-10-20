@@ -88,7 +88,6 @@ nav.linkmenu li.contact a:hover {
 nav.linkmenu li.f-b a {
 	width                 	: 27px;
 	background-image		:url('images/f-b.png');
-	background-repeat   :no-repeat;
 	height 					: 25px;
 	margin-left				: 10px;
 	margin-top				: 3px;
@@ -184,7 +183,6 @@ div.footer {
 
 div.footer div.scroller {
 	background-image      : url('images/scroller.png');
-	background-repeat :no-repeat;
 	margin-left           : 200px;
 }
 
@@ -209,9 +207,8 @@ div.footer menu.menup2 li {
 
 div.footer menu.menup2 li a {
 	background-image      : url('images/scroller-items.jpg');
-	background-repeat :no-repeat;
 	padding-top           : 100px;
-    	padding-right: 2px;
+    padding-right: 2px;
 	display: block;
 	height: 95px;
 	margin-top: 10px;
