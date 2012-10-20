@@ -296,5 +296,13 @@ div.text1 div.panels div.viewpanel3{
 }
 div.text1 div.viewchildrencake h4{
 	color: #CC0D1C;
-	font-family:'Satisfy', cursive;;
+	font-family:'Satisfy', cursive;
+	font-size: 25px;
+	font-weight: bold;
+}
+div.text1 div.viewchildrencake p{
+	color: #54301a;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 13px;
+
 }
