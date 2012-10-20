@@ -26,49 +26,51 @@ nav.linkmenu{
 	margin-left           : 270px;
 	
 }
-nav.linkmenu li{
+nav.linkmenu li a{
 	background-image      : url('images/linkheader.png');
 	background-repeat     : no-repeat;
 	height                : 35px;
 	float                 : left;
+	display               : block;
 }
-nav.linkmenu li.home{
+nav.linkmenu li.home a{
 	width                 : 125px;
 	background-position   : -2px -15px;
 }
-nav.linkmenu li.aboutus{
+nav.linkmenu li.aboutus a{
 	width                 : 115px;
 	background-position   :-130px -15px;
 }
-nav.linkmenu li.aboutus:hover{
+nav.linkmenu li.aboutus a:hover{
 	background-position   :-130px -45px;
 }
-nav.linkmenu li.ourrange{
+nav.linkmenu li.ourrange a{
 	width                 : 130px;
 	background-position   :-245px -15px;
 }
-nav.linkmenu li.ourrange:hover{
+nav.linkmenu li.ourrange a:hover{
+	width                 : 130px;
 	background-position   :-245px -45px;
 }
-nav.linkmenu li.catering{
+nav.linkmenu li.catering a{
 	width                 : 109px;
 	background-position   :-375px -15px;
 }
-nav.linkmenu li.catering:hover{
+nav.linkmenu li.catering a:hover{
 	background-position   :-375px -45px;
 }
-nav.linkmenu li.contact{
+nav.linkmenu li.contact a{
 	width                 : 90px;
 	background-position   :-480px -45px;
 }
-
-nav.linkmenu li.f-b{
+nav.linkmenu li.f-b a{
 	width                 : 35px;
 	background-position   :-570px -15px;
 }
-nav.linkmenu li.f-b:hover{
+nav.linkmenu li.f-b a:hover{
 	background-position   :-570px -49px;
 }
+
 
 /*content..........................................................*/
 div.content {
