@@ -121,11 +121,11 @@ menu.linkmenu li{
 	background-position	: 0 39px;
 	
 }
-menu.linkmenu li.childrencake{
+menu.linkmenu li.dessertcake{
 	background-position: 0 0 !important;
 
 }
-menu.linkmenu li.childrencake a{
+menu.linkmenu li.dessertcake a{
 	color				: white !important;
 	display				: block;
 }
