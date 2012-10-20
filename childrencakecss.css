@@ -279,9 +279,6 @@ div.wholetext div.mapimg{
 div.text1{
 	outline: red dashed 2px;
 }
-div.text1 div.viewchildrencake{
-	outline: blue dashed 1px;
-}
 div.text1 div.panels{
 	outline: red dashed 2px;
 }
@@ -305,4 +302,8 @@ div.text1 div.viewchildrencake p{
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 13px;
 
+}
+div.text1 div.viewchildrencake p a{
+	text-decoration: none;
+	color: #54301a;
 }
