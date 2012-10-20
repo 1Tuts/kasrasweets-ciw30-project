@@ -4258,7 +4258,7 @@ body.traditional header.headpage {
 }
 
 body.traditional nav.linkmenu {
-	margin-top            : 25px;
+	margin-top            : 45px;
 	margin-left           : 270px;
 }
 
@@ -4273,6 +4273,9 @@ body.traditional nav.linkmenu li a {
 body.traditional nav.linkmenu li.home a {
 	width                 : 125px;
 	background-position   : -2px -15px;
+}
+body.traditional nav.linkmenu li.home a:hover {
+	background-position   : -2px -45px;
 }
 
 body.homemade nav.linkmenu li.home a:hover {
@@ -4311,15 +4314,15 @@ body.traditional nav.linkmenu li.contact a:hover {
 	background-position   :-480px -45px;
 }
 
-body.homemade nav.linkmenu li.f-b a {
+body.traditional nav.linkmenu li.f-b a {
  	width               : 27px;
   	background-image    :url('images/f-b.png');
- 	height           : 25px;
-  	margin-left      : 10px;
-  	margin-top       : 3px;
+ 	height           	: 25px;
+  	margin-left      	: 10px;
+  	margin-top       	: 3px;
 }
 
-body.homemadenav.linkmenu li.f-b a:hover {
+body.traditional.linkmenu li.f-b a:hover {
   	background-position     : 0 -25px;
 } 
 
