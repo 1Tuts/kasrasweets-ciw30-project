@@ -19,7 +19,7 @@ div.container {
 	padding-top           : 5px;
 }
 
-/*................................*header*....................................*/
+/*.................................*header*....................................*/
 header.headpage {
 	background-image      : url('images/header1.png');
 	background-repeat     : no-repeat;
@@ -31,7 +31,7 @@ header.headpage {
 
 /*.............*menu*...............*/
 nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;	
 }
 
@@ -525,7 +525,7 @@ body.about header.headpage {
 }
 
 body.about nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;
 	
 }
@@ -861,7 +861,7 @@ body.catering header.headpage {
 }
 
 body.catering nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;
 	
 }
@@ -1269,7 +1269,7 @@ body.celebration header.headpage {
 }
 
 body.celebration nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;
 }
 
@@ -1600,7 +1600,7 @@ body.children header.headpage {
 }
 
 body.children nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;
 }
 
@@ -1962,7 +1962,7 @@ body.contact header.headpage {
 }
 
 body.contact nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;
 }
 
@@ -2305,7 +2305,7 @@ body.cupcake header.headpage {
 }
 
 body.cupcake nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;	
 }
 
@@ -2663,7 +2663,7 @@ body.dessert header.headpage {
 }
 
 body.dessert nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;
 }
 
@@ -2842,7 +2842,7 @@ body.dessert section.copyright1 div.copypanels p {
 	font-size			: 12px;
 }
 
-body.dessert div.wholetext{
+body.dessert div.wholetext {
 	z-index: 2 !important;
 }
 
@@ -3009,9 +3009,8 @@ body.ourrange header.headpage {
 }
 
 body.ourrange nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;
-	
 }
 
 body.ourrange nav.linkmenu li a {
@@ -3538,7 +3537,7 @@ body.health header.headpage {
 }
 
 body.health nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;
 }
 
@@ -3897,7 +3896,7 @@ body.homemade header.headpage {
 }
 
 body.homemade nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;
 	
 }
@@ -4261,7 +4260,7 @@ body.traditional header.headpage {
 }
 
 body.traditional nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;
 }
 
@@ -4634,9 +4633,8 @@ body.recpies header.headpage {
 }
 
 body.recpies nav.linkmenu {
-	margin-top            : 77px;
+	margin-top            : 25px;
 	margin-left           : 270px;
-	
 }
 
 body.recpies nav.linkmenu li a {
