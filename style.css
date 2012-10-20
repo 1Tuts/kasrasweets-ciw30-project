@@ -4325,7 +4325,7 @@ body.homemadenav.linkmenu li.f-b a:hover {
 
 /*content..........................................................*/
 
-body.traditional body.traditional section.sidebar {
+body.traditional section.sidebar {
 	float				: left;
 	width				: 270px;
 	padding 			: 35px 55px 0 20px;
