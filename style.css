@@ -99,9 +99,9 @@ section.backimg div {
 	top      : 0;
 	right    :0;
 	bottom   :0;
-	padding: 290px 180px 0 0px;
+	padding: 260px 30px 0 0px;
 	z-index  :-2;
-	background-position :490px 245px;
+	background-position :415px 230px;
 	background-repeat   :no-repeat;
 } 
 
@@ -177,7 +177,7 @@ div.footer {
 
 div.footer div.scroller {
 	background-image      : url('images/scroller.png');
-	margin-left           : 201px;
+	margin-left           : 25px;
 }
 
 div.footer menu li.leftspan {
@@ -267,7 +267,7 @@ div.footer li.cupcake a:hover {
 }
 
 div.footer div.slideshow {
-	margin-left: 200px;
+	margin-left: 25px;
 	margin-top            : 8px;
 }
 
