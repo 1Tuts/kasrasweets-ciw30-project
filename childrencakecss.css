@@ -278,36 +278,36 @@ div.wholetext div.mapimg{
 /*..........content3......................*/
 
 div.text1 div.viewchildrencake h4{
-	color: #CC0D1C;
-	font-family:'Satisfy', cursive;
-	font-size: 25px;
-	font-weight: bold;
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 25px;
+	font-weight			: bold;
 }
 div.text1 div.viewchildrencake p{
-	color: #54301a;
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 13px;
-	margin-bottom: 5px;
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 13px;
+	margin-bottom		: 5px;
 
 }
 div.text1 div.viewchildrencake p a{
-	text-decoration: none;
-	color: #54301a;
+	text-decoration		: none;
+	color				: #54301a;
 }
 div.text1 div.panels img {
-	border: solid #f7f5f3 2px;
-	border-radius: 10px;
+	border 				: solid #f7f5f3 2px;
+	border-radius		: 10px;
 }
 div.text1 div.panels h5
 {
-	color: #CC0D1C;
-	font-family:'Satisfy', cursive;
-	font-size: 22px;
-	font-weight: bold;
+	color				: #CC0D1C;
+	font-family			:'Satisfy', cursive;
+	font-size			: 22px;
+	font-weight			: bold;
 }
 div.text1 div.panels p{
-	color: #54301a;
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 17px;
-	margin-bottom: 5px;
+	color				: #54301a;
+	font-family			: Helvetica,Arial,sans-serif;
+	font-size			: 17px;
+	margin-bottom		: 5px;
 }
