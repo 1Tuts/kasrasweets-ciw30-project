@@ -116,11 +116,11 @@ menu.linkmenu li{
 	background-position	: 0 39px;
 	
 }
-menu.linkmenu li.celebrationcake{
+menu.linkmenu li.childrencake{
 	background-position: 0 0 !important;
 
 }
-menu.linkmenu li.celebrationcake a{
+menu.linkmenu li.childrencake a{
 	color				: white !important;
 	display				: block;
 }
@@ -275,7 +275,7 @@ div.wholetext div.mapimg{
 	z-index: 2;
 	position: absolute;
 }
-/*..........content3......................*/
+/*..........text1......................*/
 
 div.text1 div.viewchildrencake h4{
 	color				: #CC0D1C;
