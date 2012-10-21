@@ -4957,27 +4957,38 @@ body.recipes div.text1 div.panels div.slideimg {
 	overflow: hidden;
 }
 
-body.recipes div.text1 div.panels div.slideimg li {
-	width: 100px;
-	height: inherit;
-	background-repeat: no-repeat;
-	float: left;
-	-webkit-transition : width 500ms;
+body.recipes div.text1 div.panels div.slideimg {
+	width    : 600px;
+	margin   : 0 auto;
+	overflow : hidden;
 }
 
-body.recipes div.text1 div.panels div.slideimg ul {
-	list-style-type: none;
-	height: inherit;
+body.recipes div.slideimg .bus{
+	width : 1000px;
 }
 
-body.recipes .slideimg li:last-child {
-	padding-right : 200px;
+body.recipes div.slideimg .bus > div {
+	float    : left;
+	width    : 150px;
+	overflow : hidden;
 }
 
-body.recipes div.slideimg:hover li {
-	width : 50px;
+body.recipes div.slideimg .bus > div:last-child {
+	padding-right : 300px;
 }
 
-body.recipes div.slideimg li:hover {
-	width : 450px;
+body.recipes div.slideimg .bus > div > img {
+	display: block;
+}
+
+body.recipes div.slideimg .bus > div {
+	-webkit-transition : width 700ms; 
+}
+
+body.recipes div.slideimg:hover .bus > div {
+	width    : 50px;
+}
+
+body.recipes div.slideimg .bus > div:hover {
+	width    : 450px;
 }
