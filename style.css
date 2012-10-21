@@ -108,9 +108,9 @@ section.backimg div {
 	top      : 0;
 	right    :0;
 	bottom   :0;
-	padding-top: 100px;
+	padding-top: 60px;
 	z-index  :-2;
-	background-position :460px 50px;
+	background-position :460px 25px;
 	background-repeat   :no-repeat;
 } 
 
