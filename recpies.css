@@ -321,4 +321,12 @@ div.text1 div.panels p{
 	font-size			: 17px;
 	margin-bottom		: 5px;
 }
-
+/*.........slidimg............*/
+div.text1 div.panels div.slideimg li{
+	width: 100px;
+	height: 300px;
+	float: left;
+}
+div.text1 div.panels div.slideimg ul{
+	list-style-type: none;
+}
