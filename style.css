@@ -184,7 +184,7 @@ div.footer {
 
 div.footer div.scroller {
 	background-image      : url('images/scroller.png');
-	margin-left           : 200px;
+	margin-left           : 285px;
 }
 
 div.footer menu li.leftspan {
@@ -274,7 +274,7 @@ div.footer li.cupcake a:hover {
 }
 
 div.footer div.slideshow {
-	margin-left: 200px;
+	margin-left: 285px;
 	margin-top            : 8px;
 }
 
