@@ -38,6 +38,9 @@ nav.linkmenu li.home a{
 	width                 : 125px;
 	background-position   : -2px -15px;
 }
+nav.linkmenu li.home a:hover{
+	background-position   :-2px -45px;
+}
 nav.linkmenu li.aboutus a{
 	width                 : 115px;
 	background-position   :-130px -15px;
