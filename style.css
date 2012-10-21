@@ -20,6 +20,7 @@ div.container {
 }
 div.backpic {
 	background-position: center 0;
+	margin-top: 33px;
 }
 /*.................................*header*....................................*/
 header.headpage {
@@ -179,7 +180,7 @@ section.backimg div a span {
 
 /*..................................*panel2*..................................*/
 div.panel2 {
-	margin-top: 390px;
+	margin-top: 410px;
 	float: right;
 	margin-right: 40px;
 }
