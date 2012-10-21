@@ -14,11 +14,13 @@ body div.siteoftheday {
 }
 
 div.container {
-	min-height            : 630px;
+	height            : 630px;
 	margin-top            : 2px;
 	padding-top           : 5px;
 }
-
+div.backpic {
+	background-position: center 0;
+}
 /*.................................*header*....................................*/
 header.headpage {
 	background-image      : url('images/header1.png');
@@ -177,8 +179,9 @@ section.backimg div a span {
 
 /*..................................*panel2*..................................*/
 div.panel2 {
-	background-position: center 0;
-
+	margin-top: 390px;
+	float: right;
+	margin-right: 40px;
 }
 
 div.panel2 div.scroller {
@@ -357,7 +360,7 @@ div.panel2 div.linkp2 span {
 
 
 
-/*footer..........................................................*/
+/**.............................footer*................................*/
 
 div.footerimg {
 	min-height			: 483px;
@@ -365,6 +368,7 @@ div.footerimg {
 	clear				: both;
 	width				: 100%;
 	bottom 				: auto;	
+	outline: 1px dashed red;
 }
 
 footer.wholeimage {
@@ -482,3 +486,4 @@ div.wholetext div.mapimg {
 	background-repeat	: no-repeat;
 	z-index: 2;
 }
+
