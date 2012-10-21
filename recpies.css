@@ -119,11 +119,11 @@ menu.linkmenu li{
 	background-position	: 0 39px;
 	
 }
-menu.linkmenu li.childrencake{
+menu.linkmenu li.recipes{
 	background-position: 0 0 !important;
 
 }
-menu.linkmenu li.childrencake a{
+menu.linkmenu li.recipes a{
 	color				: white !important;
 	display				: block;
 }
@@ -313,4 +313,13 @@ div.text1 div.panels p{
 	font-family			: Helvetica,Arial,sans-serif;
 	font-size			: 17px;
 	margin-bottom		: 5px;
+}
+div.text1 div.panels div.viewpanel1{
+	border-bottom		: gray 2px solid
+}
+div.text1 div.panels div.viewpanel2{
+	border-bottom		: gray 2px solid
+}
+div.text1 div.panels div.viewpanel3{
+	border-bottom		: gray 2px solid
 }
