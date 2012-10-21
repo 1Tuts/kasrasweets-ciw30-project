@@ -1365,8 +1365,7 @@ body.celebration p.intro {
 }
 
 /* left menu........................................................*/
-
-menu.linkmenu li:hover {
+body.celebration menu.linkmenu li:hover {
 	list-style-type		: none;
 	background-position	: 0 0;
 	width				: 276px;
@@ -1384,7 +1383,7 @@ body.celebration menu.linkmenu li a {
 	font-size			: 23px;
 }
 
-body.celebration menu.linkmenu li {
+body.celebration menu.linkmenu li{
 	height 				: 40px;
 	line-height			: 30px;
 	width				: 276px;
@@ -1394,17 +1393,17 @@ body.celebration menu.linkmenu li {
 	
 }
 
-body.celebration body.celebration menu.linkmenu li.celebrationcake {
+body.celebration menu.linkmenu li.celebrationcake{
 	background-position: 0 0 !important;
 
 }
 
-body.celebration menu.linkmenu li.celebrationcake a{
+body.celebration menu.linkmenu li.celebrationcake a {
 	color				: white !important;
 	display				: block;
 }
 
-body.celebration menu.linkmenu li:hover a{
+body.celebration menu.linkmenu li:hover a {
 	color				: white;
 	display				: block;
 }
@@ -2976,7 +2975,6 @@ body.dessert div.text1 div.panels p {
 }
 
 /*ourrange..........................................*/
-
 body.ourrange {
 	background 				: url('images/background.png');
 	background-position		:top center;
@@ -2992,7 +2990,7 @@ body.ourrange div.siteoftheday {
 }
 
 body.ourrange div.container {
-	min-height            : 710px;
+	min-height            : 1000px;
 	margin-top            : 2px;
 	padding-top           : 5px;
 }
@@ -3006,7 +3004,7 @@ body.ourrange header.headpage {
 
 body.ourrange nav.linkmenu {
 	margin-top            : 70px;
-	margin-left           : 300px;
+	margin-left           : 270px;	
 }
 
 body.ourrange nav.linkmenu li a {
@@ -3017,13 +3015,9 @@ body.ourrange nav.linkmenu li a {
 	display               : block;
 }
 
-body.ourrangenav.linkmenu li.home a {
+body.ourrange nav.linkmenu li.home a {
 	width                 : 125px;
 	background-position   : -2px -15px;
-}
-
-body.ourrange nav.linkmenu li.home a:hover {
-	background-position   :-2px -45px;
 }
 
 body.ourrange nav.linkmenu li.aboutus a {
@@ -3069,7 +3063,6 @@ body.ourrange nav.linkmenu li.f-b a {
 body.ourrange nav.linkmenu li.f-b a:hover {
 	background-position   	: 0 -25px;
 } 
-
 /*content..........................................................*/
 
 body.ourrange body {
