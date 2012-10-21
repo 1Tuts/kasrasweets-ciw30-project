@@ -540,6 +540,9 @@ body.about nav.linkmenu li.home a {
 	width                 : 125px;
 	background-position   : -2px -15px;
 }
+body.about nav.linkmenu li.home a:hover{
+	background-position   : -2px -45px;
+}
 
 body.about nav.linkmenu li.aboutus a {
 	width                 : 115px;
@@ -875,7 +878,9 @@ body.catering nav.linkmenu li.home a {
 	width                 : 125px;
 	background-position   : -2px -15px;
 }
-
+body.catering nav.linkmenu li.home a:hover{
+	background-position   : -2px -45px;
+}
 body.catering nav.linkmenu li.aboutus a {
 	width                 : 115px;
 	background-position   :-130px -15px;
@@ -3021,7 +3026,9 @@ body.ourrange nav.linkmenu li.home a {
 	width                 : 125px;
 	background-position   : -2px -15px;
 }
-
+body.ourrange nav.linkmenu li.home a:hover{
+	background-position   : -2px -45px;
+}
 body.ourrange nav.linkmenu li.aboutus a {
 	width                 : 115px;
 	background-position   :-130px -15px;
