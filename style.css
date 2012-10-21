@@ -4768,7 +4768,7 @@ body.recpies menu.linkmenu a:visited li {
 }
 
 /*footer..........................................................*/
-body.recpies div.footerimg {
+body.traditional div.footerimg {
 	background-image	: url('images/ornament_1-background.png');
 	min-height			: 483px;
 	position 			:relative;
@@ -4777,7 +4777,7 @@ body.recpies div.footerimg {
 	bottom 				: auto;
 }
 
-body.recpies footer.wholeimg {
+body.traditional footer.wholeimg {
 	background-image	: url('images/ornament_2-background.png');
 	background-repeat	: repeat-x;
 	min-height			: 377px;
@@ -4786,7 +4786,7 @@ body.recpies footer.wholeimg {
 	overflow			: hidden;
 }
 
-body.recpies div.imgpatch {
+body.traditional div.imgpatch {
 	background-image	: url('images/ornament_1-background.png');
 	background-position	: center 0;
 	background-repeat	: repeat-x;
@@ -4797,7 +4797,7 @@ body.recpies div.imgpatch {
 	z-index				:1;
 }
 
-body.recpies section.copyright1 {
+body.traditional section.copyright1 {
 	background-image	: url('images/ornament_1-background.png');
 	background-position	: center 0;
 	background-repeat	: repeat-x;
@@ -4808,7 +4808,7 @@ body.recpies section.copyright1 {
 	margin-top			: 83px
 }
 
-body.recpies section.copyright1 div.copypanels p {
+body.traditional section.copyright1 div.copypanels p {
 	color				:white;
 	min-height			: 35px;
 	width				: 950px;
@@ -4819,45 +4819,44 @@ body.recpies section.copyright1 div.copypanels p {
 	font-size			: 12px;
 }
 
-body.recpies div.wholetext{
+body.traditional div.wholetext {
 	z-index: 2 !important;
 }
 
-body.recpies footer.wholeimg div.wholetext {
+body.traditional footer.wholeimg div.wholetext {
 	width				: 950px;
 	margin-left			: auto;
 	margin-right		: auto;
 	margin-top			: 10px;
-	
 }
 
-body.recpies div.addresstext h5 {
+body.traditional div.addresstext h5 {
 	color				: white;
 	font-size			: 14px;
 }
 
-body.recpies div.addresstext p {
+body.traditional div.addresstext p {
 	color				: #d8cfc6;
 	font-size			: 15px;
 }
 
-body.recpies div.addresstext section.openhours h4 {
+body.traditional div.addresstext section.openhours h4 {
 	color				: white;
 	font-size			: 22px;
 	font-family			: 'Satisfy', cursive;
 }
 
-body.recpies section.openhours ul.wevent li span {
+body.traditional section.openhours ul.wevent li span {
 	color				: #d8cfc6 !important;
 	font-weight			: normal;
 	margin-left			: 15px;
 }
 
-body.recpies section.openhours ul.wevent li.firstopen {
+body.traditional section.openhours ul.wevent li.firstopen {
 	margin-top			: 20px;
 }
 
-body.recpies section.openhours ul.wevent li p {
+body.traditional section.openhours ul.wevent li p {
 	white-space			: pre;
 	color				: white;
 	font-weight			: bold;
@@ -4865,20 +4864,20 @@ body.recpies section.openhours ul.wevent li p {
 	font-size			: 13px;
 }
 
-body.recpies section div.wcard h4 {
+body.traditional section div.wcard h4 {
 	color				: white;
 	font-size			: 22px;
 	font-family			: 'Satisfy', cursive;
 }
 
-body.recpies section div.wcard p {
+body.traditional section div.wcard p{
 	margin-top			: 17px;
 	font-size			: 23px;
 	font-weight			: normal;
 	color				: white;
 }
 
-body.recpies div.wcard div.adr p {
+body.traditional div.wcard div.adr p {
 	
 	font-weight			: normal;
 	margin-top			: 5px;
@@ -4886,7 +4885,7 @@ body.recpies div.wcard div.adr p {
 	color				: #d8cfc6 ;
 }
 
-body.recpies div.adr p.faxtel {
+body.traditional div.adr p.faxtel {
 	white-space			: pre;
 	color				: white !important;
 	font-weight			: bold;
@@ -4894,11 +4893,11 @@ body.recpies div.adr p.faxtel {
 	font-size			: 13px;
 }
 
-body.recpies div.adr p.faxtel span {
+body.traditional div.adr p.faxtel span {
 	color				:#d8cfc6;
 }
 
-body.recpies div.adr p.email {
+body.traditional div.adr p.email {
 	white-space			: pre;
 	color				: white !important;
 	font-weight			: bold;
@@ -4906,11 +4905,11 @@ body.recpies div.adr p.email {
 	font-size			: 13px;
 }
 
-body.recpies div.adr p.email span {
+body.traditional div.adr p.email span {
 	color				:#d8cfc6;
 }
 
-body.recpies div.wholetext div.mapimg {
+body.traditional div.wholetext div.mapimg {
 	background-image	: url('images/footer-background-sections.png');
 	background-repeat	: no-repeat;
 	z-index: 2;
@@ -4919,54 +4918,66 @@ body.recpies div.wholetext div.mapimg {
 
 /*..........text1......................*/
 
-body.recpies div.text1 div.viewchildrencake h4 {
+body.traditional div.text1 div.viewchildrencake h4 {
 	color				: #CC0D1C;
 	font-family			:'Satisfy', cursive;
 	font-size			: 25px;
 	font-weight			: bold;
 }
 
-body.recpies div.text1 div.viewchildrencake p {
+body.traditional div.text1 div.viewchildrencake p {
 	color				: #54301a;
 	font-family			: Helvetica,Arial,sans-serif;
 	font-size			: 13px;
 	margin-bottom		: 5px;
 }
 
-body.recpies div.text1 div.viewchildrencake p a {
+body.traditional div.text1 div.viewchildrencake p a {
 	text-decoration		: none;
 	color				: #54301a;
 }
 
-body.recpies div.text1 div.panels img {
+body.traditional div.text1 div.panels img {
 	border 				: solid #f7f5f3 2px;
 	border-radius		: 10px;
 }
 
-body.recpies div.text1 div.panels h5 {
+body.traditional div.text1 div.panels h5 {
 	color				: #CC0D1C;
 	font-family			:'Satisfy', cursive;
 	font-size			: 22px;
 	font-weight			: bold;
 }
 
-body.recpies div.text1 div.panels p {
+body.traditional div.text1 div.panels p {
 	color				: #54301a;
 	font-family			: Helvetica,Arial,sans-serif;
 	font-size			: 17px;
 	margin-bottom		: 5px;
 }
 
-body.recpies div.text1 div.panels div.viewpanel1 {
-	border-bottom		: gray 2px solid
+body.traditional div.text1 div.panels div.viewpanel1 {
+	border-bottom		: gray 2px solid;
 }
 
-body.recpies div.text1 div.panels div.viewpanel2 {
-	border-bottom		: gray 2px solid
+body.traditional div.text1 div.panels div.viewpanel2 {
+	border-bottom		: gray 2px solid;
 }
 
-body.recpies div.text1 div.panels div.viewpanel3 {
-	border-bottom		: gray 2px solid
+body.traditional div.text1 div.panels div.viewpanel3 {
+	border-bottom		: gray 2px solid;
+}
+
+body.traditional div.text1 div.panels div.viewpanel4 {
+	border-bottom		: gray 2px solid;
+}
+
+body.traditional div.text1 div.panels div.viewpanel5 {
+	border-bottom		: gray 2px solid;
+}
+
+body.traditional div.text1 div.panels div.viewpanel6 {
+	border-bottom		: gray 2px solid;
 }
 
 
