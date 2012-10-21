@@ -105,7 +105,7 @@ section.backimg div {
 	top      : 0;
 	right    :0;
 	bottom   :0;
-	padding: 260px 200px 0 0px;
+	padding: 260px 160px 0 0px;
 	z-index  :-2;
 	background-position :460px 230px;
 	background-repeat   :no-repeat;
@@ -4573,18 +4573,18 @@ body.traditional div.text1 div.panels h5 {
 	font-weight			: bold;
 }
 
-body.traditional div.text1 div.panels p {
+body.recpies div.text1 div.panels p {
 	color				: #54301a;
 	font-family			: Helvetica,Arial,sans-serif;
 	font-size			: 17px;
 	margin-bottom		: 5px;
 }
 
-body.traditional div.text1 div.panels div.viewpanel1 {
+body.recpies div.text1 div.panels div.viewpanel1 {
 	border-bottom		: gray 2px solid;
 }
 
-body.traditional div.text1 div.panels div.viewpanel2 {
+body.recpies div.text1 div.panels div.viewpanel2 {
 	border-bottom		: gray 2px solid;
 }
 
@@ -4605,114 +4605,98 @@ body.traditional div.text1 div.panels div.viewpanel6 {
 }
 
 /*recpies......................................*/
-
-body.recpies {
+body.recipes{
 	background 				: url('images/background.png');
 	background-position		:top center;
 	background-repeat		: repeat-y;
 }
-
-body.recpies div.siteoftheday {
+body.recipes div.siteoftheday{
 	background-image      : url('images/siteoftheday.png');
 	background-repeat     : no-repeat;
 	min-height            : 105px;
 	width                 : 69px;
 	float                 : right;
 }
-
-body.recpies div.container {
+body.recipes div.container{
 	min-height            : 1000px;
 	margin-top            : 2px;
 	padding-top           : 5px;
 }
-
-body.recpies header.headpage {
+body.recipes header.headpage{
 	background-image      : url('images/header1.png');
 	background-repeat     : no-repeat;
 	background-position   : center;
 	height                : 242px;
 }
-
-body.recpies nav.linkmenu {
-	margin-top            : 70px;
+body.recipes nav.linkmenu{
+	margin-top            : 77px;
 	margin-left           : 270px;
+	
 }
 
-body.recpies nav.linkmenu li a {
+body.recipes nav.linkmenu li a{
 	background-image      : url('images/linkheader.png');
 	background-repeat     : no-repeat;
 	height                : 35px;
 	float                 : left;
 	display               : block;
 }
-
-body.recpies nav.linkmenu li.home a {
+body.recipes nav.linkmenu li.home a{
 	width                 : 125px;
 	background-position   : -2px -15px;
 }
-body.homemade nav.linkmenu li.home a:hover {
-  	background-position   :-2px -45px;
-}
-
-body.recpies nav.linkmenu li.home a:hover {
+body.recipes nav.linkmenu li.home a:hover{
 	background-position   :-2px -45px;
 }
-
-body.recpies nav.linkmenu li.aboutus a {
+body.recipes nav.linkmenu li.home a:hover{
+	background-position   :-2px -45px;
+}
+body.recipes nav.linkmenu li.aboutus a{
 	width                 : 115px;
 	background-position   :-130px -15px;
 }
-
-body.recpies nav.linkmenu li.aboutus a:hover {
+body.recipes nav.linkmenu li.aboutus a:hover{
 	background-position   :-130px -45px;
 }
-
-body.recpies nav.linkmenu li.ourrange a {
+body.recipes nav.linkmenu li.ourrange a{
 	width                 : 130px;
 	background-position   :-245px -45px;
 }
-
-body.recpies nav.linkmenu li.catering a {
+body.recipes nav.linkmenu li.catering a{
 	width                 : 109px;
 	background-position   :-375px -15px;
 }
-
-body.recpies nav.linkmenu li.catering a:hover {
+body.recipes nav.linkmenu li.catering a:hover{
 	background-position   :-375px -45px;
 }
-
-body.recpies nav.linkmenu li.contact a {
+body.recipes nav.linkmenu li.contact a{
 	width                 : 90px;
 	background-position   :-480px -15px;
 }
-
-body.recpies nav.linkmenu li.contact a:hover {
+body.recipes nav.linkmenu li.contact a:hover{
 	background-position   :-480px -45px;
 }
-
-body.homemade nav.linkmenu li.f-b a {
- 	width               : 27px;
-  	background-image    :url('images/f-b.png');
- 	height           : 25px;
-  	margin-left      : 10px;
-  	margin-top       : 3px;
+body.recipes nav.linkmenu li.f-b a {
+	width                 	: 27px;
+	background-image		:url('images/f-b.png');
+	height 					: 25px;
+	margin-left				: 10px;
+	margin-top				: 3px;
 }
 
-body.homemadenav.linkmenu li.f-b a:hover {
-  	background-position     : 0 -25px;
+body.recipes nav.linkmenu li.f-b a:hover {
+	background-position   	: 0 -25px;
 } 
 
-
 /*content..........................................................*/
-
-body.recpies section.sidebar {
+section.sidebar {
 	float				: left;
 	width				: 270px;
 	padding 			: 35px 55px 0 20px;
 	text-align			: right;
 }
 
-body.recpies p.intro {
+p.intro {
 	color				: #8D7E6F;
 	font-size			: 16px;
 	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
@@ -4721,14 +4705,13 @@ body.recpies p.intro {
 }
 
 /* left menu........................................................*/
-
-body.recpies menu.linkmenu li:hover {
+menu.linkmenu li:hover{
 	list-style-type		: none;
 	background-position	: 0 0;
 	width				: 276px;
-}
 
-body.recpies menu.linkmenu li a {
+}
+menu.linkmenu li a{
 	display				: block;
 	color				:#54301A;
 	text-decoration		: none;
@@ -4737,56 +4720,59 @@ body.recpies menu.linkmenu li a {
 	font-weight			: normal;
 	vertical-align		: baseline;
 	font-size			: 23px;
-}
+	
 
-body.recpies menu.linkmenu li {
+
+}
+menu.linkmenu li{
 	height 				: 40px;
 	line-height			: 30px;
 	width				: 276px;
 	background-image	: url('images/sidebar-background.png');
 	background-repeat	: no-repeat;
 	background-position	: 0 39px;
+	
 }
-
-body.recpies menu.linkmenu li.recipes {
+menu.linkmenu li.recipes{
 	background-position: 0 0 !important;
 
 }
-
-body.recpies menu.linkmenu li.recipes a {
+menu.linkmenu li.recipes a{
 	color				: white !important;
 	display				: block;
 }
-
-body.recpies menu.linkmenu li:hover a {
+menu.linkmenu li:hover a{
 	color				: white;
 	display				: block;
 }
-
-body.recpies menu.linkmenu a:visited li {
+menu.linkmenu a:visited li {
 	background-position	: 0 0;
 }
 
+
 /*footer..........................................................*/
-body.traditional div.footerimg {
+div.footerimg{
 	background-image	: url('images/ornament_1-background.png');
 	min-height			: 483px;
 	position 			:relative;
 	clear				: both;
 	width				: 100%;
 	bottom 				: auto;
+	
 }
-
-body.traditional footer.wholeimg {
+footer.wholeimg{
 	background-image	: url('images/ornament_2-background.png');
 	background-repeat	: repeat-x;
 	min-height			: 377px;
 	background-position	: center -3px;
 	padding-top			: 100px;
 	overflow			: hidden;
-}
 
-body.traditional div.imgpatch {
+	
+	
+
+}
+div.imgpatch{
 	background-image	: url('images/ornament_1-background.png');
 	background-position	: center 0;
 	background-repeat	: repeat-x;
@@ -4795,9 +4781,9 @@ body.traditional div.imgpatch {
 	position 			: absolute;
 	margin-top			: 4px;
 	z-index				:1;
-}
 
-body.traditional section.copyright1 {
+}
+section.copyright1{
 	background-image	: url('images/ornament_1-background.png');
 	background-position	: center 0;
 	background-repeat	: repeat-x;
@@ -4808,7 +4794,7 @@ body.traditional section.copyright1 {
 	margin-top			: 83px
 }
 
-body.traditional section.copyright1 div.copypanels p {
+section.copyright1 div.copypanels p{
 	color				:white;
 	min-height			: 35px;
 	width				: 950px;
@@ -4817,167 +4803,157 @@ body.traditional section.copyright1 div.copypanels p {
 	margin-left			: auto;
 	margin-top			: 30px;
 	font-size			: 12px;
-}
 
-body.traditional div.wholetext {
+
+}
+div.wholetext{
 	z-index: 2 !important;
 }
 
-body.traditional footer.wholeimg div.wholetext {
+footer.wholeimg div.wholetext{
 	width				: 950px;
 	margin-left			: auto;
 	margin-right		: auto;
 	margin-top			: 10px;
+	
 }
-
-body.traditional div.addresstext h5 {
+div.addresstext h5{
 	color				: white;
 	font-size			: 14px;
-}
 
-body.traditional div.addresstext p {
+}
+div.addresstext p{
 	color				: #d8cfc6;
 	font-size			: 15px;
 }
-
-body.traditional div.addresstext section.openhours h4 {
+div.addresstext section.openhours h4{
 	color				: white;
 	font-size			: 22px;
 	font-family			: 'Satisfy', cursive;
 }
-
-body.traditional section.openhours ul.wevent li span {
+section.openhours ul.wevent li span{
 	color				: #d8cfc6 !important;
 	font-weight			: normal;
 	margin-left			: 15px;
 }
-
-body.traditional section.openhours ul.wevent li.firstopen {
+section.openhours ul.wevent li.firstopen{
 	margin-top			: 20px;
 }
-
-body.traditional section.openhours ul.wevent li p {
+section.openhours ul.wevent li p{
 	white-space			: pre;
 	color				: white;
 	font-weight			: bold;
 	margin-top			: 10px;
 	font-size			: 13px;
-}
+	
 
-body.traditional section div.wcard h4 {
+}
+section div.wcard h4{
 	color				: white;
 	font-size			: 22px;
 	font-family			: 'Satisfy', cursive;
 }
-
-body.traditional section div.wcard p{
+section div.wcard p{
 	margin-top			: 17px;
 	font-size			: 23px;
 	font-weight			: normal;
 	color				: white;
 }
-
-body.traditional div.wcard div.adr p {
+div.wcard div.adr p{
 	
 	font-weight			: normal;
 	margin-top			: 5px;
 	font-size			: 15px;
 	color				: #d8cfc6 ;
 }
-
-body.traditional div.adr p.faxtel {
+div.adr p.faxtel{
 	white-space			: pre;
 	color				: white !important;
 	font-weight			: bold;
 	margin-top			: 10px;
 	font-size			: 13px;
 }
-
-body.traditional div.adr p.faxtel span {
+div.adr p.faxtel span{
 	color				:#d8cfc6;
 }
-
-body.traditional div.adr p.email {
+div.adr p.email{
 	white-space			: pre;
 	color				: white !important;
 	font-weight			: bold;
 	margin-top			: 10px;
 	font-size			: 13px;
 }
-
-body.traditional div.adr p.email span {
+div.adr p.email span{
 	color				:#d8cfc6;
 }
-
-body.traditional div.wholetext div.mapimg {
+div.wholetext div.mapimg{
 	background-image	: url('images/footer-background-sections.png');
 	background-repeat	: no-repeat;
 	z-index: 2;
 	position: absolute;
 }
-
 /*..........text1......................*/
 
-body.traditional div.text1 div.viewchildrencake h4 {
+div.text1 div.viewchildrencake h4{
 	color				: #CC0D1C;
 	font-family			:'Satisfy', cursive;
 	font-size			: 25px;
 	font-weight			: bold;
 }
-
-body.traditional div.text1 div.viewchildrencake p {
+div.text1 div.viewchildrencake p{
 	color				: #54301a;
 	font-family			: Helvetica,Arial,sans-serif;
 	font-size			: 13px;
 	margin-bottom		: 5px;
-}
 
-body.traditional div.text1 div.viewchildrencake p a {
+}
+div.text1 div.viewchildrencake p a{
 	text-decoration		: none;
 	color				: #54301a;
 }
-
-body.traditional div.text1 div.panels img {
+div.text1 div.panels img {
 	border 				: solid #f7f5f3 2px;
 	border-radius		: 10px;
 }
-
-body.traditional div.text1 div.panels h5 {
+div.text1 div.panels h5
+{
 	color				: #CC0D1C;
 	font-family			:'Satisfy', cursive;
 	font-size			: 22px;
 	font-weight			: bold;
 }
-
-body.traditional div.text1 div.panels p {
+div.text1 div.panels p{
 	color				: #54301a;
 	font-family			: Helvetica,Arial,sans-serif;
 	font-size			: 17px;
 	margin-bottom		: 5px;
 }
-
-body.traditional div.text1 div.panels div.viewpanel1 {
-	border-bottom		: gray 2px solid;
+/*.........slidimg............*/
+div.text1 div.panels div.slideimg{
+	width: 400px;
+	height: 300px;
+	margin: 50px auto 0;
+	overflow: hidden;
+}
+div.text1 div.panels div.slideimg li{
+	width: 100px;
+	height: inherit;
+	background-repeat: no-repeat;
+	float: left;
+	-webkit-transition : width 500ms;
+}
+div.text1 div.panels div.slideimg ul{
+	list-style-type: none;
+	height: inherit;
+}
+.slideimg li:last-child {
+	padding-right : 200px;
 }
 
-body.traditional div.text1 div.panels div.viewpanel2 {
-	border-bottom		: gray 2px solid;
+div.slideimg:hover li{
+	width : 50px;
 }
 
-body.traditional div.text1 div.panels div.viewpanel3 {
-	border-bottom		: gray 2px solid;
+div.slideimg li:hover{
+	width : 450px;
 }
-
-body.traditional div.text1 div.panels div.viewpanel4 {
-	border-bottom		: gray 2px solid;
-}
-
-body.traditional div.text1 div.panels div.viewpanel5 {
-	border-bottom		: gray 2px solid;
-}
-
-body.traditional div.text1 div.panels div.viewpanel6 {
-	border-bottom		: gray 2px solid;
-}
-
-
