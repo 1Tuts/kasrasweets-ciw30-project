@@ -322,11 +322,31 @@ div.text1 div.panels p{
 	margin-bottom		: 5px;
 }
 /*.........slidimg............*/
+div.text1 div.panels div.slideimg{
+	width: 400px;
+	height: 300px;
+	margin: 50px auto 0;
+	overflow: hidden;
+}
 div.text1 div.panels div.slideimg li{
 	width: 100px;
-	height: 300px;
+	height: inherit;
+	background-repeat: no-repeat;
 	float: left;
+	-webkit-transition : width 500ms;
 }
 div.text1 div.panels div.slideimg ul{
 	list-style-type: none;
+	height: inherit;
+}
+.slideimg li:last-child {
+	padding-right : 200px;
+}
+
+div.slideimg:hover li{
+	width : 50px;
+}
+
+div.slideimg li:hover{
+	width : 450px;
 }
