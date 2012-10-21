@@ -23,9 +23,8 @@ div.container {
 header.headpage {
 	background-image      : url('images/header1.png');
 	background-repeat     : no-repeat;
-	margin-top            : 9px;
 	height                : 242px;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 /*.............*menu*...............*/
