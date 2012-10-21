@@ -38,6 +38,9 @@ nav.linkmenu li.home a{
 	width                 : 125px;
 	background-position   : -2px -15px;
 }
+nav.linkmenu li.home a:hover{
+	background-position   :-2px -45px;
+}
 nav.linkmenu li.aboutus a{
 	width                 : 115px;
 	background-position   :-130px -15px;
@@ -116,11 +119,11 @@ menu.linkmenu li{
 	background-position	: 0 39px;
 	
 }
-menu.linkmenu li.childrencake{
+menu.linkmenu li.recipes{
 	background-position: 0 0 !important;
 
 }
-menu.linkmenu li.childrencake a{
+menu.linkmenu li.recipes a{
 	color				: white !important;
 	display				: block;
 }
@@ -320,4 +323,3 @@ div.text1 div.panels div.viewpanel2{
 div.text1 div.panels div.viewpanel3{
 	border-bottom		: gray 2px solid
 }
-
