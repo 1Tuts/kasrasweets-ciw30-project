@@ -11,7 +11,7 @@ body div.siteoftheday{
 	float                 : right;
 }
 div.container{
-	min-height            : 1000px;
+	min-height            : 710px;
 	margin-top            : 2px;
 	padding-top           : 5px;
 }
@@ -77,6 +77,26 @@ nav.linkmenu li.f-b a:hover {
 
 
 /*content..........................................................*/
+body {
+	background-image: url('images/background.png');
+	color: white;
+}
+
+.gallery{
+	width: 550px;
+}
+
+.gallery li {
+	float: left;
+	margin-right: 15px;
+}
+
+.gallery li a {
+	display: block;
+	border: 8px solid #FAFAFA;
+	border-bottom-width: 30px;
+	border-radius: 2px;
+}
 section.sidebar {
 	float				: left;
 	width				: 270px;
@@ -121,11 +141,11 @@ menu.linkmenu li{
 	background-position	: 0 39px;
 	
 }
-menu.linkmenu li.childrencake{
+menu.linkmenu li.celebrationcake{
 	background-position: 0 0 !important;
 
 }
-menu.linkmenu li.childrencake a{
+menu.linkmenu li.celebrationcake a{
 	color				: white !important;
 	display				: block;
 }
@@ -189,7 +209,7 @@ section.copyright1 div.copypanels p{
 	margin-bottom		: 0;
 	margin-right		: auto;
 	margin-left			: auto;
-	margin-top			: 30px;
+	margin-top			: 15px;
 	font-size			: 12px;
 
 
@@ -279,40 +299,4 @@ div.wholetext div.mapimg{
 	background-repeat	: no-repeat;
 	z-index: 2;
 	position: absolute;
-}
-/*..........text1......................*/
-
-div.text1 div.viewchildrencake h4{
-	color				: #CC0D1C;
-	font-family			:'Satisfy', cursive;
-	font-size			: 25px;
-	font-weight			: bold;
-}
-div.text1 div.viewchildrencake p{
-	color				: #54301a;
-	font-family			: Helvetica,Arial,sans-serif;
-	font-size			: 13px;
-	margin-bottom		: 5px;
-
-}
-div.text1 div.viewchildrencake p a{
-	text-decoration		: none;
-	color				: #54301a;
-}
-div.text1 div.panels img {
-	border 				: solid #f7f5f3 2px;
-	border-radius		: 10px;
-}
-div.text1 div.panels h5
-{
-	color				: #CC0D1C;
-	font-family			:'Satisfy', cursive;
-	font-size			: 22px;
-	font-weight			: bold;
-}
-div.text1 div.panels p{
-	color				: #54301a;
-	font-family			: Helvetica,Arial,sans-serif;
-	font-size			: 17px;
-	margin-bottom		: 5px;
 }
