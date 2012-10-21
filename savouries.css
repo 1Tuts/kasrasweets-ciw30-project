@@ -24,6 +24,7 @@ header.headpage{
 nav.linkmenu{
 	margin-top            : 77px;
 	margin-left           : 270px;
+	
 }
 
 nav.linkmenu li a{
@@ -65,17 +66,13 @@ nav.linkmenu li.contact a{
 nav.linkmenu li.contact a:hover{
 	background-position   :-480px -45px;
 }
-nav.linkmenu li.f-b a {
-	width                 	: 27px;
-	background-image		:url('images/f-b.png');
-	height 					: 25px;
-	margin-left				: 10px;
-	margin-top				: 3px;
+nav.linkmenu li.f-b a{
+	width                 : 35px;
+	background-position   :-570px -15px;
 }
-
-nav.linkmenu li.f-b a:hover {
-	background-position   	: 0 -25px;
-} 
+nav.linkmenu li.f-b a:hover{
+	background-position   :-570px -49px;
+}
 
 /*content..........................................................*/
 section.sidebar {
@@ -317,13 +314,3 @@ div.text1 div.panels p{
 	font-size			: 17px;
 	margin-bottom		: 5px;
 }
-div.text1 div.panels div.viewpanel1{
-	border-bottom		: gray 2px solid;
-}
-div.text1 div.panels div.viewpanel2{
-	border-bottom		: gray 2px solid;
-}
-div.text1 div.panels div.viewpanel3{
-	border-bottom		: gray 2px solid;
-}
-
