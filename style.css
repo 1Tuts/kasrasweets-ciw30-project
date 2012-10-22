@@ -1365,7 +1365,6 @@ body.celebration p.intro {
 }
 
 /* left menu........................................................*/
-
 body.celebration menu.linkmenu li:hover {
 	list-style-type		: none;
 	background-position	: 0 0;
@@ -1384,7 +1383,7 @@ body.celebration menu.linkmenu li a {
 	font-size			: 23px;
 }
 
-body.celebration menu.linkmenu li {
+body.celebration menu.linkmenu li{
 	height 				: 40px;
 	line-height			: 30px;
 	width				: 276px;
@@ -1394,17 +1393,17 @@ body.celebration menu.linkmenu li {
 	
 }
 
-body.celebration body.celebration menu.linkmenu li.celebrationcake {
+body.celebration menu.linkmenu li.celebrationcake{
 	background-position: 0 0 !important;
 
 }
 
-body.celebration menu.linkmenu li.celebrationcake a{
+body.celebration menu.linkmenu li.celebrationcake a {
 	color				: white !important;
 	display				: block;
 }
 
-body.celebration menu.linkmenu li:hover a{
+body.celebration menu.linkmenu li:hover a {
 	color				: white;
 	display				: block;
 }
