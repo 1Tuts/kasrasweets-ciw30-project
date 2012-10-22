@@ -2975,7 +2975,6 @@ body.dessert div.text1 div.panels p {
 }
 
 /*ourrange..........................................*/
-
 body.ourrange {
 	background 				: url('images/background.png');
 	background-position		:top center;
@@ -2991,7 +2990,7 @@ body.ourrange div.siteoftheday {
 }
 
 body.ourrange div.container {
-	min-height            : 710px;
+	min-height            : 1000px;
 	margin-top            : 2px;
 	padding-top           : 5px;
 }
@@ -3005,7 +3004,7 @@ body.ourrange header.headpage {
 
 body.ourrange nav.linkmenu {
 	margin-top            : 70px;
-	margin-left           : 300px;
+	margin-left           : 270px;	
 }
 
 body.ourrange nav.linkmenu li a {
@@ -3016,13 +3015,9 @@ body.ourrange nav.linkmenu li a {
 	display               : block;
 }
 
-body.ourrangenav.linkmenu li.home a {
+body.ourrange nav.linkmenu li.home a {
 	width                 : 125px;
 	background-position   : -2px -15px;
-}
-
-body.ourrange nav.linkmenu li.home a:hover {
-	background-position   :-2px -45px;
 }
 
 body.ourrange nav.linkmenu li.aboutus a {
@@ -3068,7 +3063,6 @@ body.ourrange nav.linkmenu li.f-b a {
 body.ourrange nav.linkmenu li.f-b a:hover {
 	background-position   	: 0 -25px;
 } 
-
 /*content..........................................................*/
 
 body.ourrange body {
