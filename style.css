@@ -1,11 +1,11 @@
 /* Under Develope Page */
-body {
+body.index {
 	background            : url('images/background.png');
 	background-position   : top center;
 	background-repeat     : repeat-y;
 } 
 
-body div.siteoftheday { 
+body.index div.siteoftheday { 
 	background-image      : url('images/siteoftheday.png');
 	background-repeat     : no-repeat;
 	min-height            : 105px;
@@ -13,14 +13,14 @@ body div.siteoftheday {
 	float                 : right;
 }
 
-div.container {
+body.index div.container {
 	min-height            : 630px;
 	margin-top            : 2px;
 	padding-top           : 5px;
 }
 
 /*.................................*header*....................................*/
-header.headpage {
+body.index header.headpage {
 	background-image      : url('images/header1.png');
 	background-repeat     : no-repeat;
 	height                : 242px;
@@ -28,12 +28,12 @@ header.headpage {
 }
 
 /*.............*menu*...............*/
-nav.linkmenu {
+body.index nav.linkmenu {
 	margin-top            : 25px;
 	margin-left           : 270px;	
 }
 
-nav.linkmenu li a {
+body.index nav.linkmenu li a {
 	background-image      : url('images/linkheader.png');
 	background-repeat     : no-repeat;
 	height                : 35px;
@@ -41,51 +41,51 @@ nav.linkmenu li a {
 	display               : block;
 }
 
-nav.linkmenu li.home a {
+body.index nav.linkmenu li.home a {
 	width                 : 125px;
 	background-position   : -2px -45px;
 }
-nav.linkmenu li.home a:hover {
+body.index nav.linkmenu li.home a:hover {
 	background-position   :-2px -45px;
 }
 
-nav.linkmenu li.aboutus a {
+body.index nav.linkmenu li.aboutus a {
 	width                 : 115px;
 	background-position   :-130px -15px;
 }
 
-nav.linkmenu li.aboutus a:hover {
+body.index nav.linkmenu li.aboutus a:hover {
 	background-position   :-130px -45px;
 }
 
-nav.linkmenu li.ourrange a {
+body.index nav.linkmenu li.ourrange a {
 	width                 : 130px;
 	background-position   :-245px -15px;
 }
 
-nav.linkmenu li.ourrange a:hover {
+body.index nav.linkmenu li.ourrange a:hover {
 	background-position   :-245px -45px;
 }
 
-nav.linkmenu li.catering a {
+body.index nav.linkmenu li.catering a {
 	width                 : 109px;
 	background-position   :-375px -15px;
 }
 
-nav.linkmenu li.catering a:hover {
+body.index nav.linkmenu li.catering a:hover {
 	background-position   :-375px -45px;
 }
 
-nav.linkmenu li.contact a {
+body.index nav.linkmenu li.contact a {
 	width                 : 90px;
 	background-position   :-480px -15px;
 } 
 
-nav.linkmenu li.contact a:hover {
+body.index nav.linkmenu li.contact a:hover {
 	background-position   :-480px -45px;
 }
 
-nav.linkmenu li.f-b a {
+body.index nav.linkmenu li.f-b a {
 	width                 	: 27px;
 	background-image		:url('images/f-b.png');
 	height 					: 25px;
@@ -93,12 +93,12 @@ nav.linkmenu li.f-b a {
 	margin-top				: 3px;
 }
 
-nav.linkmenu li.f-b a:hover {
+body.index nav.linkmenu li.f-b a:hover {
 	background-position   	: 0 -25px;
 } 
 
 /*..................................*panel1*..................................*/
-section.backimg div {
+body.index section.backimg div {
 	position             : absolute;
 	width                : 950px;
 	height               : 398px;
@@ -111,7 +111,7 @@ section.backimg div {
 	background-repeat   :no-repeat;
 } 
 
-section.backimg div h2 {
+body.index section.backimg div h2 {
 	color: #CC0D1C;
 	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
 	font-weight: normal;
@@ -119,14 +119,14 @@ section.backimg div h2 {
 	font-size: 22px;
 }
 
-section.backimg div p {
+body.index section.backimg div p {
 	margin-top: 15px;
 	color: #8D7E6F;
 	font-family: 'BlissRegular',Helvetica,Arial,sans-serif;
 	font-size: 17px;
 }
 
-section.backimg a.view {
+body.index section.backimg a.view {
 	font-family: 'Tangerine', cursive;
 	font-weight: normal;
 	display: block;
@@ -140,35 +140,35 @@ section.backimg a.view {
 	cursor: pointer;
 }
 
-section.backimg a:hover {
+body.index section.backimg a:hover {
 	color: #CC0D1C;
 }
 
-section.backimg span {
+body.index section.backimg span {
 	margin-left: 3px;
 	color: #CC0D1C;
 }
 
-section.backimg article {
+body.index section.backimg article {
 	float:left;
 	margin-top: 40px;
 	width: 380px;
 	height: 200px;
 }
 
-section.backimg article div {
+body.index section.backimg article div {
 	float: left;
 	margin-top: 60px;
 	margin-right: 800px;
 }
 
-section.backimg div a.view:hover {
+body.index section.backimg div a.view:hover {
 	color: #CC0D1C;
 	text-decoration: none;
 }
 
-section.backimg div a span {
-	color: color: #CC0D1C;
+body.index section.backimg div a span {
+	color: #CC0D1C;
 	cursor: pointer;
 	font-family: 'CoralRegular',sans-serif;
 	font-weight: normal;
@@ -176,31 +176,31 @@ section.backimg div a span {
 } 
 
 /*..................................*panel2*..................................*/
-div.panel2 {
+body.index div.panel2 {
 	background-position: center 0;
 }
-div.footer {
+body.index div.footer {
 	background-position: center 0;
 
 }
 
-div.footer div.scroller {
+body.index div.footer div.scroller {
 	background-image      : url('images/scroller.png');
 	margin-left           : 200px;
 }
 
-div.footer menu li.leftspan {
+body.index div.footer menu li.leftspan {
 	width: 20px;
 	min-height: 20px;
 	margin-left: 20px;
 	margin-top: 20px;
 }
 
-div.footer li.leftspan a:hover {
+body.index div.footer li.leftspan a:hover {
 	color:  #54301A;
 }
 
-div.footer menu.menup2 li {
+body.index div.footer menu.menup2 li {
 	float: left;
 	height: 130px;
 	overflow: hidden;
@@ -208,7 +208,7 @@ div.footer menu.menup2 li {
 	margin-left: 20px;
 }
 
-div.footer menu.menup2 li a {
+body.index div.footer menu.menup2 li a {
 	background-image      : url('images/scroller-items.jpg');
 	padding-top           : 100px;
     padding-right: 2px;
@@ -221,66 +221,66 @@ div.footer menu.menup2 li a {
 	text-decoration: none;
 }
 
-div.footer li.celebration a {
+body.index div.footer li.celebration a {
 	width                 : 110px;
 	background-position   : -35px -137px;
 }
 
-div.footer li.celebration a:hover {
+body.index div.footer li.celebration a:hover {
 	background-position   :-35px -2px;
 }
 
-div.footer li.children a {
+body.index div.footer li.children a {
 	width                 : 110px;
 	background-position   : -165px -137px;
 }
 
-div.footer li.children a:hover {
+body.index div.footer li.children a:hover {
 	background-position   :-165px -2px;
 }
 
-div.footer li.dessert a {
+body.index div.footer li.dessert a {
 	width                 : 110px;
 	background-position   : -308px -137px;
 }
 
-div.footer li.dessert a:hover {
+body.index div.footer li.dessert a:hover {
 	background-position   :-308px -2px;
 }
 
-div.footer li.savouries a {
+body.index div.footer li.savouries a {
 	width                 : 110px;
 	background-position   : -440px -137px;
 }
 
-div.footer li.savouries a:hover { 
+body.index div.footer li.savouries a:hover { 
 	background-position   :-440px -2px;
 }
 
-div.footer li.health a {
+body.index div.footer li.health a {
 	width                 : 110px;
 	background-position   : -581px -137px;
 }
 
-div.footer li.health a:hover {
+body.index div.footer li.health a:hover {
 	background-position   :-581px -2px;
 }
 
-div.footer li.cupcake a {
+body.index div.footer li.cupcake a {
 	width                 : 110px;
 	background-position   : -726px -137px;
 }
 
-div.footer li.cupcake a:hover {
+body.index div.footer li.cupcake a:hover {
 	background-position   :-726px -2px;
 }
 
-div.footer div.slideshow {
+body.index div.footer div.slideshow {
 	margin-left: 200px;
 	margin-top            : 8px;
 }
 
-div.footer div.picp2 {
+body.index div.footer div.picp2 {
 	margin-top            : 180px;
 	margin-right          : 40px;
 	background-image: url('images/ornament_1-background.png');
@@ -290,7 +290,7 @@ div.footer div.picp2 {
 	border-radius: 40px; 
 }
 
-div.footer div.picp2 a.leftpanel {
+body.index div.footer div.picp2 a.leftpanel {
 	width: 201px;
 	background-image: url('images/catering-background.png');
 	background-repeat: no-repeat;
@@ -298,52 +298,52 @@ div.footer div.picp2 a.leftpanel {
 	margin-top: 15px;
 }
 
-div.footer div.picp2 div.rightpanel {
+body.index div.footer div.picp2 div.rightpanel {
 	margin-top           : 10px;
 	margin-left          : 222px;
 	width: 200px;
 }
-div.footer div.picp2 div.rightpanel h3 {
+body.index div.footer div.picp2 div.rightpanel h3 {
 	color: #fff;
 }
 
-div.footer div.picp2 div.rightpanel p {
+body.index div.footer div.picp2 div.rightpanel p {
 	color: #fff;
 	font-size: 13px;
 }
 
-div.footer div.boxp2 {
+body.index div.footer div.boxp2 {
 	margin-right: 500px;
 	margin-top           : 180px;
 	margin-left          : 27px;
 }
 
-div.footer div.boxp2 article.textareap2 {
+body.index div.footer div.boxp2 article.textareap2 {
 	margin-top           : 5px;
 	margin-left          : 5px;
 	width                : 380px;
 }
 
-div.footer article.textareap2 h2.titlep2 {
+body.index div.footer article.textareap2 h2.titlep2 {
 	margin-left          : 5px;
 	color: white;
 	font-size: 20px;
 	padding-bottom: 10px;
 }
 
-div.footer article.textareap2 p.textp2 {
+body.index div.footer article.textareap2 p.textp2 {
 	margin-left          : 5px;
 	font-size: 12px;
 	color: white;
 	line-height: 18px;
 }
 
-div.footer div.linkp2 {
+body.index div.footer div.linkp2 {
 	margin-top: 45px;
 	margin-left: 45px;
 }
 
-div.footer div.linkp2 a {
+body.indexdiv.footer div.linkp2 a {
 	padding-top: 20px;
 	margin-left : 10px;
 	color: #fff;
@@ -352,13 +352,13 @@ div.footer div.linkp2 a {
 	font-family: 'Satisfy', cursive; 
 }
 
-div.footer div.linkp2 span {
+body.index div.footer div.linkp2 span {
 	margin-left: 5px;
 	color: #CC0D1C;
 	font-size: 24px;	
 }
 
-a.copyright {
+body.index a.copyright {
 	width: 277px;
 	margin-top: 70px;
 	margin-lef :10px;
@@ -370,7 +370,7 @@ a.copyright {
 
 /*footer..........................................................*/
 
-div.footerimg {
+body.index div.footerimg {
 	min-height			: 483px;
 	position 			:relative;
 	clear				: both;
@@ -378,15 +378,15 @@ div.footerimg {
 	bottom 				: auto;	
 }
 
-footer.wholeimage {
+body.index footer.wholeimage {
 	padding-top			: 60px;
 }
 
-div.copypanels {
+body.index div.copypanels {
 	border-top			: dashed 1px #8d7e6f;
 }
 
-div.copypanels p {
+body.index div.copypanels p {
 	min-height			: 35px;
 	width				: 950px;
 	margin-bottom		: 0;
@@ -396,44 +396,44 @@ div.copypanels p {
 	font-size			: 12px;
 }
 
-div.wholetext {
+body.index div.wholetext {
 	z-index: 2 !important;
 }
 
-footer.wholeimg div.wholetext {
+body.index footer.wholeimg div.wholetext {
 	width				: 950px;
 	margin-left			: auto;
 	margin-right		: auto;
 	margin-top			: 10px;
 } 
 
-div.addresstext h5 {
+body.index div.addresstext h5 {
 	color				: #CC0D1C;
 	font-size			: 16px;
 } 
 
-div.addresstext p {
+body.index div.addresstext p {
 	color				: #54301A;
 	font-size			: 15px;
 }
 
-div.addresstext section.openhours h4 {
+body.index div.addresstext section.openhours h4 {
 	color				: #CC0D1C;
 	font-size			: 21px;
 	font-family			:'Satisfy', cursive; 
 }
 
-section.openhours ul.wevent li span {
+body.index section.openhours ul.wevent li span {
 	color				: #54301A !important;
 	font-weight			: normal;
 	margin-left			: 15px;
 }
 
-section.openhours ul.wevent li.firstopen {
+body.index section.openhours ul.wevent li.firstopen {
 	margin-top			: 20px;
 }
 
-section.openhours ul.wevent li p {
+body.index section.openhours ul.wevent li p {
 	white-space			: pre;
 	color				: #54301A;
 	font-weight			: bold;
@@ -441,20 +441,20 @@ section.openhours ul.wevent li p {
 	font-size			: 13px;
 }
 
-section div.wcard h4 { 
+body.index section div.wcard h4 { 
 	color				: #CC0D1C;
 	font-size			: 21px;
 	font-family			:'Satisfy', cursive; 
 }
 
-section div.wcard p {
+body.index section div.wcard p {
 	margin-top			: 17px;
 	font-size			: 23px;
 	font-weight			: normal;
 	color				: #54301A;
 }
 
-div.wcard div.adr p {
+body.index div.wcard div.adr p {
 	
 	font-weight			: normal;
 	margin-top			: 5px;
@@ -462,7 +462,7 @@ div.wcard div.adr p {
 	color				: #54301A ;
 }
 
-div.adr p.faxtel {
+body.index div.adr p.faxtel {
 	white-space			: pre;
 	color				: #54301A!important;
 	font-weight			: bold;
@@ -470,11 +470,11 @@ div.adr p.faxtel {
 	font-size			: 13px;
 }
 
-div.adr p.faxtel span { 
+body.index div.adr p.faxtel span { 
 	color				:#54301A;
 }
 
-div.adr p.email {
+body.index div.adr p.email {
 	white-space			: pre;
 	color				: #54301A !important;
 	font-weight			: bold;
@@ -482,11 +482,11 @@ div.adr p.email {
 	font-size			: 13px;
 }
 
-div.adr p.email span {
+body.index div.adr p.email span {
 	color				: #CC0D1C;
 }
 
-div.wholetext div.mapimg {
+body.index div.wholetext div.mapimg {
 	background-image	: url('images/footer-background-sections.png');
 	background-repeat	: no-repeat;
 	z-index: 2;
