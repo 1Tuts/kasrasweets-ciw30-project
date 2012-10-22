@@ -105,9 +105,8 @@ body.index section.backimg div {
 	top      : 0;
 	right    :0;
 	bottom   :0;
-	padding: 260px 200px 0 0px;
 	z-index  :-2;
-	background-position :460px 230px;
+	background-position :460px 0px;
 	background-repeat   :no-repeat;
 } 
 
@@ -181,7 +180,6 @@ body.index div.panel2 {
 }
 body.index div.footer {
 	background-position: center 0;
-
 }
 
 body.index div.footer div.scroller {
