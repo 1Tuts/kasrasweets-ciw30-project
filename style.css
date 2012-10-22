@@ -1366,7 +1366,7 @@ body.celebration p.intro {
 
 /* left menu........................................................*/
 
-menu.linkmenu li:hover {
+body.celebration menu.linkmenu li:hover {
 	list-style-type		: none;
 	background-position	: 0 0;
 	width				: 276px;
