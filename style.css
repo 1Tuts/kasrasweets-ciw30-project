@@ -100,7 +100,6 @@ section.backimg div {
 	width                : 950px;
 	height               : 398px;
 	top      : 0;
-	
 	bottom   :0;
 	padding: 275px 150px 0 0px;
 	z-index  :-2;
@@ -144,6 +143,8 @@ section.backimg a:hover {
 section.backimg span {
 	margin-left: 3px;
 	color: #CC0D1C;
+	cursor: pointer;
+	font-family: 'CoralRegular',sans-serif;
 }
 
 section.backimg article {
@@ -163,14 +164,6 @@ section.backimg div a.view:hover {
 	color: #CC0D1C;
 	text-decoration: none;
 }
-
-section.backimg div a span {
-	color: color: #CC0D1C;
-	cursor: pointer;
-	font-family: 'CoralRegular',sans-serif;
-	font-weight: normal;
-	text-transform: none;
-} 
 
 /*..................................*panel2*..................................*/
 div.footer {
