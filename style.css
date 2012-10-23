@@ -2322,7 +2322,7 @@ body.cupcake nav.linkmenu li.home a {
 	width                 : 125px;
 	background-position   : -2px -15px;
 }
-nav.linkmenu li.home a:hover {
+body.cupcake nav.linkmenu li.home a:hover {
 	background-position   :-2px -45px;
 }
 body.cupcake nav.linkmenu li.aboutus a {
