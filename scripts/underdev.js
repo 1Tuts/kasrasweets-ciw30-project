@@ -11,7 +11,7 @@
 				startIndex : 0,
 				fadeFirstImage : true,
 				zIndex : -3,
-				zIndexAct : -2
+				zIndexAct : 1
 			},options);
 
 			options.startIndex--;
@@ -55,7 +55,7 @@
 			freez : 3000, // zaman tavaghof barye har slide
 			duration : 1300, // zaman animation ha
 			zIndex : -3, // z-index hameye slide ha dar halate addi
-			zIndexAct : -2, // z-index slide active ke bayad balatar bashe ta link ha ghabel click shodan bashan
+			zIndexAct : 1, // z-index slide active ke bayad balatar bashe ta link ha ghabel click shodan bashan
 			startIndex : 0, // pic avali
 			fadeFirstImage : true // aya pic aval fade beshe ya na az ebteda bashe
 		});
