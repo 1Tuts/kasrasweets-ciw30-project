@@ -862,13 +862,16 @@ body.catering nav.linkmenu li a {
 	float                 : left;
 	display               : block;
 }
+
 body.catering nav.linkmenu li.home a {
 	width                 : 125px;
 	background-position   : -2px -15px;
 }
+
 body.catering nav.linkmenu li.home a:hover{
 	background-position   : -2px -45px;
 }
+
 body.catering nav.linkmenu li.aboutus a {
 	width                 : 115px;
 	background-position   :-130px -15px;
@@ -965,30 +968,44 @@ body.catering section.slideshow .train > li {
 	opacity:0;
 	-webkit-transform: scale(0.95);
 	-webkit-transition: all 500ms ease-out;
+	-moz-transform: scale(0.95);
+	-moz-transition: all 500ms ease-out;
+	-o-transform: scale(0.95);
+	-o-transition: all 500ms ease-out;
 }
 
 body.catering .step1 section.slideshow .train > li.pic1 {
 	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
 	opacity:1;
 }
 
 body.catering .step2 section.slideshow .train > li.pic2 {
 	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
 	opacity:1;
 }
 
 body.catering .step3 section.slideshow .train > li.pic3 {
 	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
 	opacity:1;
 }
 
 body.catering .step4 section.slideshow .train > li.pic4 {
 	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
 	opacity:1;
 }
 
 body.catering .step5 section.slideshow .train > li.pic5 {
 	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
 	opacity:1;
 }
 
@@ -1362,6 +1379,7 @@ body.celebration p.intro {
 }
 
 /* left menu........................................................*/
+
 body.celebration menu.linkmenu li:hover {
 	list-style-type		: none;
 	background-position	: 0 0;
@@ -2409,17 +2427,18 @@ body.cupcake menu.linkmenu li {
 
 body.cupcake menu.linkmenu li.cupcakes {
 	background-position: 0 0 !important;
-
 }
 
 body.cupcake menu.linkmenu li.cupcakes a {
 	color				: white !important;
 	display				: block;
 }
+
 body.cupcake menu.linkmenu li:hover a {
 	color				: white;
 	display				: block;
 }
+
 body.cupcake menu.linkmenu a:visited li {
 	background-position	: 0 0;
 }
@@ -2744,7 +2763,6 @@ body.dessert menu.linkmenu li:hover {
 	list-style-type		: none;
 	background-position	: 0 0;
 	width				: 276px;
-
 }
 
 body.dessert menu.linkmenu li a {
@@ -4342,6 +4360,7 @@ body.traditional p.intro {
 }
 
 /* left menu........................................................*/
+
 body.traditional menu.linkmenu li:hover {
 	list-style-type		: none;
 	background-position	: 0 0;
@@ -4975,7 +4994,10 @@ body.recipes div.slideimg .bus > div > img {
 }
 
 body.recipes div.slideimg .bus > div {
-	-webkit-transition : width 700ms; 
+	-webkit-transition : width 700ms;
+	-ms-transition : width 700ms; 
+	-o-transition : width 700ms; 
+	-moz-transition : width 700ms; 
 }
 
 body.recipes div.slideimg:hover .bus > div {
