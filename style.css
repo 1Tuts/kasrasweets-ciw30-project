@@ -101,10 +101,11 @@ section.backimg div {
 	height               : 398px;
 	top      : 0;
 	bottom   :0;
-	padding: 275px 150px 0 0px;
+	padding: 0px 150px 0 0px;
 	z-index  :-2;
-	background-position :460px 230px;
+	background-position :500px top;
 	background-repeat   :no-repeat;
+	margin-top: 200px;
 } 
 
 section.backimg div h2 {
@@ -149,7 +150,7 @@ section.backimg span {
 
 section.backimg article {
 	float:left;
-	margin-top: 40px;
+	margin-top: 70px;
 	width: 380px;
 	height: 200px;
 }
