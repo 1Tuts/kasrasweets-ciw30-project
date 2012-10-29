@@ -2751,14 +2751,13 @@ body.dessert section.sidebar {
 	text-align			: right;
 }
 
-v p.intro {
+body.dessert p.intro {
 	color				: #8D7E6F;
 	font-size			: 16px;
 	font-family			: 'BlissRegular',Helvetica,Arial,sans-serif;
 	line-height			: 20px;
 	margin-bottom		: 15px;
 }
-
 /* left menu........................................................*/
 body.dessert menu.linkmenu li:hover {
 	list-style-type		: none;
